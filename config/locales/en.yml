@@ -30,4 +30,35 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title_and_nav:
+    title: 'Fresh City'
+    header: '¡Dulce hermana!'
+  site_form: 
+    name:
+    address:
+    gender:
+    age_range:
+    days_of_the_week_and_hours_of_operation:
+    towel:
+    shower_shoe:
+    soap:
+    feminine_hygien:
+    note:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+<h2> <%= t('title_and_nav.header') %></h2>
+
+<ul>
+	<% if admin_signed_in? %>
+	<li> 
+	  <%= link_to 'Sign Out', destroy_admin_session_path, method: :delete %>
+	</li>
+	<% else %>
+	 <li>
+	 	<%= link_to 'Sign In', new_admin_session_path %>
+	 </li>
+	 <li>
+	 	<%= link_to 'Sign Up', new_admin_registration_path %>
+	 </li>
+	 <%end%>
+
+</ul>

@@ -27,6 +27,6 @@ class SitesController < ApplicationController
 	private
 
 	def site_params
-		params.require(:site).permit()
+		params.require(:site).permit(:name, :address, :gender, :age_range, :days_of_the_week_and_hours_of_operation, :towel, :shower_shoe, :soap, :feminine_hygien, :note)
 	end
 end
