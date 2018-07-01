@@ -9,7 +9,7 @@ class SitesController < ApplicationController
 		@site = Site.new
 	end
 	def edit
-		@student = Site.find(params[:id])
+		@site = Site.find(params[:id])
 	end
 	def show
 		@site = Site.find(params[:id])

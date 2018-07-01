@@ -1,0 +1,2 @@
+class ProspectSite < ApplicationRecord
+end
