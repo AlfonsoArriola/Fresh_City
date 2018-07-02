@@ -13,3 +13,20 @@
 
  */
 @import "bootstrap";
+
+
+body{
+	background: url(image-path('soap_bars.jpeg'));
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+}
+h1 {
+  font-size: 5em;
+  text-align: center;
+}
+
+h3{
+	color:coral;
+}
+
