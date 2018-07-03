@@ -37,6 +37,9 @@ en:
     sub: "New York City's leading directory for free & cheap showers"
     english: 'English'
     spanish: 'Spanish'
+    russian: 'Russian'
+    chinese: 'Chinese'
+    arabic: 'Arabic'
   # site_form: 
   #   name: 
   #   address: 
