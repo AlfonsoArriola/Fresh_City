@@ -1,0 +1,24 @@
+<%= form_for  @student do |f| %>
+		  <div>
+		 	 <%= f.label :first_name, t('create.s_first_name') %>
+		 	 <%= f.text_field :first_name %>
+		  </div>
+		  <div>
+		 	 <%= f.label :last_name, t('create.s_last_name') %>
+		 	 <%= f.text_field :last_name %>
+		  </div>
+		  <div>
+		 	 <%= f.label :highest_completed_education, t('create.education') %>
+		 	 <%= f.select(:highest_completed_education, [ t("form.hs"), t("form.college") ,
+		           t("form.masters"), t("form.phd" )]) %>
+		 </div>
+		 <div>
+		 	 <%= f.label :age, t('create.s_age') %>
+		 	 <%= f.number_field :age %>
+		 </div>		
+
+		 <div>
+		  	<%= f.submit %>
+		 </div>
+
+<% end %>

@@ -1,0 +1,2 @@
+module ProspectSitesHelper
+end
