@@ -1,21 +1,57 @@
-<%= form_for  @student do |f| %>
+<%= form_for  @site do |f| %>
 		  <div>
-		 	 <%= f.label :first_name, t('create.s_first_name') %>
-		 	 <%= f.text_field :first_name %>
+		 	 <%= f.label :name, t('site_form.name') %>
+		 	 <%= f.text_field :name %>
 		  </div>
 		  <div>
-		 	 <%= f.label :last_name, t('create.s_last_name') %>
-		 	 <%= f.text_field :last_name %>
+		 	 <%= f.label :address, t('site_form.address') %>
+		 	 <%= f.text_field :address %>
 		  </div>
 		  <div>
-		 	 <%= f.label :highest_completed_education, t('create.education') %>
-		 	 <%= f.select(:highest_completed_education, [ t("form.hs"), t("form.college") ,
+		 	 <%= f.label :gender, t('site_form.gender') %>
+		 	 <%= f.select(:gender, [ t("form.gagaggag"), t("form.college") ,
 		           t("form.masters"), t("form.phd" )]) %>
 		 </div>
 		 <div>
-		 	 <%= f.label :age, t('create.s_age') %>
-		 	 <%= f.number_field :age %>
-		 </div>		
+		 	 <%= f.label :age_range, t('site_form.age_range') %>
+		 	 <%= f.number_field :age_range %>
+		 </div>	
+		 <div>
+		 	 <%= f.label :days_of_the_week_and_hours_of_operation, t('site_form.days_of_the_week_and_hours_of_operation') %>
+		 	 <%= f.text_field :days_of_the_week_and_hours_of_operation %>
+		  </div>
+		   <div>
+		 	 <%= f.label :towel, t('site_form.towel') %>
+		 	 <%= f.text_field :towel %>
+		  </div>
+		  <div>
+		 	 <%= f.label :shower_shoe, t('site_form.shower_shoe') %>
+		 	 <%= f.text_field :shower_shoe %>
+		  </div>
+		  <div>
+		 	 <%= f.label :soap, t('site_form.soap') %>
+		 	 <%= f.text_field :soap %>
+		  </div>
+		  <div>
+		 	 <%= f.label :nearby_train, t('site_form.nearby_train') %>
+		 	 <%= f.text_field :nearby_train %>
+		  </div>
+		  <div>
+		 	 <%= f.label :borough, t('site_form.borough') %>
+		 	 <%= f.text_field :borough %>
+		  </div>
+		  <div>
+		 	 <%= f.label :website, t('site_form.website') %>
+		 	 <%= f.text_field :website %>
+		  </div>
+		  <div>
+		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %>
+		 	 <%= f.text_field :feminine_hygiene %>
+		  </div>
+		  <div>
+		 	 <%= f.label :note, t('site_form.note') %>
+		 	 <%= f.text_area :note, size: "60x12" %>
+		  </div>
 
 		 <div>
 		  	<%= f.submit %>

@@ -13,7 +13,9 @@
 
  */
 @import "bootstrap";
-
+@font-face {
+	
+}
 
 body{
 	background: url(image-path('soap_bars.jpeg'));
@@ -28,5 +30,6 @@ h1 {
 
 h3{
 	color:coral;
+	text-align: center;
 }
 

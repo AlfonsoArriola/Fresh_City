@@ -1,0 +1,25 @@
+ar:
+  title_and_nav:
+    title: 'مدينة جديدة'
+    home: 'الصفحة الرئيسية'
+    header: 'أخت جميلة!'
+    sub:  "الدليل الرائد في مدينة نيويورك للاستحمام الحرة ورخيصة"    
+    english: 'الإنجليزية'
+    spanish: 'الأسبانية'
+    russian: 'الروسية'
+    chinese: 'صينى'
+    arabic: 'عربى'
+  site_form: 
+    header: 'تسجيل الموقع الجديد'
+    name: 'اسم'
+    address: 'عنوان'
+    gender: 'جنس'
+    age_range: 'الفئة العمرية'
+    days_of_the_week_and_hours_of_operation: "أيام وساعات العمل"
+    towel: "وصول منشفة"
+    shower_shoe: "أحذية الاستحمام"
+    soap: "الوصول الصابون"
+    feminine_hygiene: "النظافة الأنثوية"
+    note: "أشياء للملاحظة"
+  site_home:
+    add_new_site: "Click To Register A New Site."

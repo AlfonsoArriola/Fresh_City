@@ -6,6 +6,9 @@ es:
     sub:  "Directorio líder de la ciudad de Nueva York para duchas gratuitas y baratas"    
     english: 'Inglés'
     spanish: 'Español'
+    russian: 'Ruso'
+    chinese: 'Chinese'
+    arabic: 'Arabic'
   # site_form:
   #   name:
   #   address:
