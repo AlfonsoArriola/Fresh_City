@@ -5,9 +5,9 @@ ar:
     header: 'أخت جميلة!'
     sub:  "الدليل الرائد في مدينة نيويورك للاستحمام الحرة ورخيصة"    
     english: 'الإنجليزية'
-    spanish: 'الأسبانية'
-    russian: 'الروسية'
-    chinese: 'صينى'
+    spanish: 'Español'
+    russian: 'русский'
+    chinese: '中文'
     arabic: 'عربى'
   site_form: 
     header: 'تسجيل الموقع الجديد'

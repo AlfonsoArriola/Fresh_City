@@ -36,10 +36,10 @@ en:
     header: 'Sweet Sister!'
     sub: "New York City's leading directory for free & cheap showers"
     english: 'English'
-    spanish: 'Spanish'
-    russian: 'Russian'
-    chinese: 'Chinese'
-    arabic: 'Arabic'
+    spanish: 'Español'
+    russian: 'русский'
+    chinese: '中文'
+    arabic: 'عربى'
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'
