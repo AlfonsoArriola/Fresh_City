@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_04_013958) do
+ActiveRecord::Schema.define(version: 2018_07_04_031751) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,6 +42,15 @@ ActiveRecord::Schema.define(version: 2018_07_04_013958) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "site_trains", force: :cascade do |t|
+    t.bigint "site_id"
+    t.bigint "train_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["site_id"], name: "index_site_trains_on_site_id"
+    t.index ["train_id"], name: "index_site_trains_on_train_id"
+  end
+
   create_table "sites", force: :cascade do |t|
     t.string "name"
     t.string "address"
@@ -62,4 +71,12 @@ ActiveRecord::Schema.define(version: 2018_07_04_013958) do
     t.string "nearby_train"
   end
 
+  create_table "trains", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "site_trains", "sites"
+  add_foreign_key "site_trains", "trains"
 end

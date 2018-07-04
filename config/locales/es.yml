@@ -4,19 +4,23 @@ es:
     home: 'Casa'
     header: '¡Dulce hermana!'
     sub:  "Directorio líder de la ciudad de Nueva York para duchas gratuitas y baratas"    
-    english: 'Inglés'
+    english: 'English'
     spanish: 'Español'
-    russian: 'Ruso'
+    russian: 'русский'
     chinese: 'Chinese'
-    arabic: 'Arabic'
-  # site_form:
-  #   name:
-  #   address:
-  #   gender:
-  #   age_range:
-  #   days_of_the_week_and_hours_of_operation:
-  #   towel:
-  #   shower_shoe:
-  #   soap:
-  #   feminine_hygien:
-  #   note:
+    arabic: 'عربى'
+  site_form: 
+    header: 'New Site Regristration'
+    name: 'Name'
+    address: 'Address'
+    gender: 'Gender'
+    age_range: 'Age Range'
+    days_of_the_week_and_hours_of_operation: "Days And Hours Of Operation"
+    towel: "Towel Access"
+    shower_shoe: "Shower Shoes"
+    soap: "Soap Accces"
+    feminine_hygiene: "feminine_hygiene"
+    note: "Things To Note"
+  site_home:
+    add_new_site: "Click To Register A New Site."
+ 
