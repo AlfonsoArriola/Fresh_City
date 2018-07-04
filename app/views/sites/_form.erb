@@ -33,14 +33,24 @@
 		 	 <%= f.text_field :soap %>
 		  </div>
 		  <div>
+		 	 <%= f.label :nearby_train, t('site_form.nearby_train') %>
+		 	 <%= f.text_field :nearby_train %>
+		  </div>
+		  <div>
+		 	 <%= f.label :borough, t('site_form.borough') %>
+		 	 <%= f.text_field :borough %>
+		  </div>
+		  <div>
+		 	 <%= f.label :website, t('site_form.website') %>
+		 	 <%= f.text_field :website %>
+		  </div>
+		  <div>
 		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %>
 		 	 <%= f.text_field :feminine_hygiene %>
 		  </div>
 		  <div>
 		 	 <%= f.label :note, t('site_form.note') %>
-
-		 	 <%= f.text_field :note %>
-		 	  <%= f.text_area :note, size: "60x12" %>
+		 	 <%= f.text_area :note, size: "60x12" %>
 		  </div>
 
 		 <div>
