@@ -10,15 +10,21 @@ Rails.application.routes.draw do
   
      resources :sites do
      	resources :trains
+        resources :borroughs
      end
 
      resources :trains do
      	resources  :sites
      end
 
-     resources :site_trains do
+     resources :sites_trains do
      	resources :trains
      	resources :sites
      end
+
+     resources :borrough do
+        resources :sites
+     end
+
 
 end

@@ -1,9 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  site: one
-  train: one
+  name: MyString
 
 two:
-  site: two
-  train: two
+  name: MyString
