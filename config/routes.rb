@@ -5,6 +5,12 @@ Rails.application.routes.draw do
 
      root 'home#index'
 
+     resources "the_bronx"
+     resources :queens
+     resources :manhattan
+     resources :staten_island
+     resources :brooklyn
+
      resources :prospect_sites
 
   

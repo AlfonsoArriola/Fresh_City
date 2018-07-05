@@ -10,25 +10,24 @@
 </div>
 <div class="row">
 	<div class="col text-center">
-		<p> For Free & Cheap Showers</p>
+		<p> <%= t('site_home.showers') %></p>
 	</div>
 
 </div>
 <div class="row">
-	<div class="col-6">
-		<p class=" text-right"> Find By Borough </p>
+	<div class="col">
+		<p class=" text-center"> <%= t('site_home.find_by_boro') %> </p>
 		<div class="row">
-		<!-- 	<ul>
-				<li>Bronx</li>
-				<li>Queens</li>
-				<li>Manhattan</li>
-				<li>Staten Island</li>
-				<li>Brooklyn</li>
-			</ul> -->
+			<ul>
+				<li> <%= link_to t('site_home.bronx') , the_bronx_index_path %> </li>
+				<li> <%= link_to t('site_home.queens') , queens_path %></li>
+				<li>
+					<%= link_to t('site_home.manhattan') , manhattan_index_path %>
+				</li>
+				<li><%= link_to t('site_home.staten_island') , staten_island_index_path %></li>
+				<li><%= link_to t('site_home.brooklyn') , brooklyn_index_path %></li>
+			</ul>
 		
 		</div>
-	</div>
-	<div class="col-6">
-		<p> Find By Nearest Train </p>
 	</div>
 </div>
