@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SiteTrainTest < ActiveSupport::TestCase
+class TrainsSitesControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

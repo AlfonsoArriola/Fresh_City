@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_04_031751) do
+ActiveRecord::Schema.define(version: 2018_07_04_232050) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,21 @@ ActiveRecord::Schema.define(version: 2018_07_04_031751) do
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
   end
 
+  create_table "boroughs", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "boroughs_sites", force: :cascade do |t|
+    t.bigint "borough_id"
+    t.bigint "site_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["borough_id"], name: "index_boroughs_sites_on_borough_id"
+    t.index ["site_id"], name: "index_boroughs_sites_on_site_id"
+  end
+
   create_table "prospect_sites", force: :cascade do |t|
     t.string "name"
     t.string "location"
@@ -40,6 +55,15 @@ ActiveRecord::Schema.define(version: 2018_07_04_031751) do
     t.string "comment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "site_boroughs", force: :cascade do |t|
+    t.bigint "site_id"
+    t.bigint "borough_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["borough_id"], name: "index_site_boroughs_on_borough_id"
+    t.index ["site_id"], name: "index_site_boroughs_on_site_id"
   end
 
   create_table "site_trains", force: :cascade do |t|
@@ -66,9 +90,7 @@ ActiveRecord::Schema.define(version: 2018_07_04_031751) do
     t.datetime "updated_at", null: false
     t.float "latitude"
     t.float "longitude"
-    t.string "borough"
     t.string "website"
-    t.string "nearby_train"
   end
 
   create_table "trains", force: :cascade do |t|
@@ -77,6 +99,21 @@ ActiveRecord::Schema.define(version: 2018_07_04_031751) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "trains_sites", force: :cascade do |t|
+    t.bigint "train_id"
+    t.bigint "site_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["site_id"], name: "index_trains_sites_on_site_id"
+    t.index ["train_id"], name: "index_trains_sites_on_train_id"
+  end
+
+  add_foreign_key "boroughs_sites", "boroughs"
+  add_foreign_key "boroughs_sites", "sites"
+  add_foreign_key "site_boroughs", "boroughs"
+  add_foreign_key "site_boroughs", "sites"
   add_foreign_key "site_trains", "sites"
   add_foreign_key "site_trains", "trains"
+  add_foreign_key "trains_sites", "sites"
+  add_foreign_key "trains_sites", "trains"
 end
