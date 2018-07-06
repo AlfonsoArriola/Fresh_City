@@ -4,6 +4,13 @@ class BoroughsController < ApplicationController
 	end
 	def create
 		@borough = Borough.create(borough_params)
+		 if @borough.valid?
+		 	flash[:notice] = "Success! added a NEW borough"
+		 	redirect_to boroughs_path
+		 else
+		 	flash[:notice] = "Invalid Input"
+		 	render :new
+		 end
 	end
 	def new
 		@borough = Borough.new

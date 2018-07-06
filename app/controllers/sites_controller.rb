@@ -34,7 +34,7 @@ class SitesController < ApplicationController
 	private
 
 	def site_params
-		params.require(:site).permit(:name, :address, :phone, :location_type, :gender, :age_range, :days_of_the_week_and_hours_of_operation, :towel, :shower_shoe, :soap, :feminine_hygien, :note, :latitude, :longitude, :train_id, :borough_id)
+		params.require(:site).permit(:name, :address, :phone, :location_type, :gender, :age_range, :days_of_the_week_and_hours_of_operation, :towel, :shower_shoe, :soap, :feminine_hygiene, :note, :latitude, :longitude, :train_id, :borough_id)
 	end
  
 end
