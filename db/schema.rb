@@ -38,15 +38,6 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "boroughs_sites", force: :cascade do |t|
-    t.bigint "borough_id"
-    t.bigint "site_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["borough_id"], name: "index_boroughs_sites_on_borough_id"
-    t.index ["site_id"], name: "index_boroughs_sites_on_site_id"
-  end
-
   create_table "prospect_sites", force: :cascade do |t|
     t.string "name"
     t.string "location"
@@ -92,8 +83,6 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.index ["train_id"], name: "index_trains_sites_on_train_id"
   end
 
-  add_foreign_key "boroughs_sites", "boroughs"
-  add_foreign_key "boroughs_sites", "sites"
   add_foreign_key "trains_sites", "sites"
   add_foreign_key "trains_sites", "trains"
 end
