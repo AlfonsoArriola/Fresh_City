@@ -1,3 +1,19 @@
 <h2> <%= t('staten_island.home_page.header') %></h2>
 
 <h3> <%= t('staten_island.home_page.sub_header') %></h3>
+
+   <h4> List Of All Bronx Sites </h4>
+
+<% @si_sites.each do |si_site| %>
+<div class="p-3 mb-4 bg-info text-white">
+  
+
+     <u>  Name </u>
+       <div> <%= si_site.name %> </div>
+     <br>
+       <u>  Address </u>
+       <div> <%= si_site.address %> </div>
+     <br>
+     
+</div>
+	<% end %>

@@ -3,6 +3,21 @@
 <h3> <%= t('bronx.home_page.sub_header') %></h3>
 
 
+   <h4> List Of All Bronx Sites </h4>
+
+<% @bx_sites.each do |bx_site| %>
+<div class="p-3 mb-4 bg-info text-white">
+  
+
+     <u>  Name </u>
+       <div> <%= bx_site.name %> </div>
+     <br>
+       <u>  Address </u>
+       <div> <%= bx_site.address %> </div>
+     <br>
+     
+</div>
+	<% end %>
 
 
 

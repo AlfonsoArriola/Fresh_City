@@ -1,3 +1,20 @@
 <h2> <%= t('brooklyn.home_page.header') %></h2>
 
 <h3> <%= t('brooklyn.home_page.sub_header') %></h3>
+
+
+   <h4> List Of All Brooklyn Sites </h4>
+
+<% @bk_sites.each do |bk_site| %>
+<div class="p-3 mb-4 bg-info text-white">
+  
+
+     <u>  Name </u>
+       <div> <%= bk_site.name %> </div>
+     <br>
+       <u>  Address </u>
+       <div> <%= bk_site.address %> </div>
+     <br>
+     
+</div>
+	<% end %>

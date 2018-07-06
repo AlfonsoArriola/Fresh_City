@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_05_230752) do
+ActiveRecord::Schema.define(version: 2018_07_06_153555) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -66,6 +66,8 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.string "website"
     t.string "phone"
     t.string "location_type"
+    t.bigint "borough_id"
+    t.index ["borough_id"], name: "index_sites_on_borough_id"
   end
 
   create_table "trains", force: :cascade do |t|
@@ -83,6 +85,7 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.index ["train_id"], name: "index_trains_sites_on_train_id"
   end
 
+  add_foreign_key "sites", "boroughs"
   add_foreign_key "trains_sites", "sites"
   add_foreign_key "trains_sites", "trains"
 end
