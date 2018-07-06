@@ -15,3 +15,23 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require_tree .
+
+
+// $(document).ready(function(){
+//    setTimeout(function(){
+//      $('#notice_wrapper').fadeOut('slow', function(){
+//          $(this).remove();
+//      });
+//    }, 4500);
+// });
+
+$(document).ready(function(){
+   $('#notice_wrapper').hide();
+	$('#notice_wrapper').fadeIn();
+  setTimeout(function(){
+    $('#notice_wrapper').fadeOut('slow', function(){
+    	$(this).remove();
+    })
+  }, 4500);
+
+}); 

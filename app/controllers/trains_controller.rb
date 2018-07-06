@@ -4,6 +4,14 @@ class TrainsController < ApplicationController
 	end
 	def create
 		@train = Train.create(train_params)
+		 if @train.valid?
+		 	flash[:notice] = "Success! added a NEW train"
+		 	redirect_to trains_path
+		 else
+		 	flash[:notice] = "Invalid Input"
+		 	render :new
+		 end
+
 	end
 	def new
 		@train = Train.new
@@ -12,7 +20,8 @@ class TrainsController < ApplicationController
 		@train = Train.find(params[:id])
 	end
 	def show
-		@train = Train.find(params[:id])		
+		@train = Train.find(params[:id])
+		
 	end
 	def update
 		train = Train.find(params[:id])
@@ -21,7 +30,9 @@ class TrainsController < ApplicationController
 		redirect_to trains_path
 	end
 	def destroy
-		
+		Train.destroy(params[:id])
+
+		redirect_to trains_path	
 	end
 	private
 	def train_params
