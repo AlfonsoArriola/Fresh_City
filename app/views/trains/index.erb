@@ -1,0 +1,17 @@
+<h2> MTA Trains </h2>
+
+<%= link_to t('site_home.add_new_site') , new_train_path %>
+
+<h4> List Of Trains</h4>
+
+<% @trains.each do |train| %>
+     <u>  Name</u>
+     <div> <%= train.name %> </div>
+      <br>
+	
+	
+	<%= link_to 'Edit', edit_train_path(train), 'data-disable-with': "Transferring now..." %>
+
+    <%= link_to 'Remove', train_path(train), method: :delete, data: { confirm: 'Are you sure?' } %>
+
+	<% end %>

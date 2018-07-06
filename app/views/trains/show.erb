@@ -1,0 +1,12 @@
+<h2> Train details</h2>
+
+<div>
+	Name: <%= @train.name %>
+
+</div>
+  <br>
+
+<div>
+	To Permenatly Remove this Train:
+	<%= link_to 'Remove', train_path(train), method: :delete, data: { confirm: 'Are you sure?' } %>
+</div>

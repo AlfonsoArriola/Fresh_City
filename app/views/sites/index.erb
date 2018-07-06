@@ -2,6 +2,25 @@
 
 
 <h4>
-  	<%= link_to t('site_home.add_new_site') , new_site_path %>
-  	
+	<!--  if current_admin  -->
+  	   <%= link_to t('site_home.add_new_site') , new_site_path %>
+ <!--  	end  -->
 </h4>
+
+<h4> List Of Registered Sites</h4>
+
+<% @sites.each do |site| %>
+     <u>  Name </u>
+       <div> <%= site.name %> </div>
+     <br>
+       <u>  Address </u>
+       <div> <%= site.address %> </div>
+     <br>
+     
+     <%= link_to 'Full Info', site_path(site), 'data-disable-with': "Hold, please..." %>
+	
+	<%= link_to 'Edit', edit_site_path(site), 'data-disable-with': "Transferring now..." %>
+
+    <%= link_to 'Remove', site_path(site), method: :delete, data: { confirm: 'Are you sure?' } %>
+
+	<% end %>

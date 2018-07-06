@@ -1,0 +1,12 @@
+<%= form_for  @train do |f| %>
+
+		  <div>
+		 	 <%= f.label :name, t('site_form.name') %>
+		 	 <%= f.text_field :name %>
+		  </div>
+		
+		  <div>
+		  	<%= f.submit %>
+		  </div>
+
+<% end %>

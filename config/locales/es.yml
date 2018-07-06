@@ -7,7 +7,7 @@ es:
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
-    chinese: 'Chinese'
+    chinese: '中文'
     arabic: 'عربى'
   site_form: 
     header: 'New Site Regristration'
@@ -23,4 +23,33 @@ es:
     note: "Things To Note"
   site_home:
     add_new_site: "Click To Register A New Site."
+    find_by_boro: "Encontrar por distrito."
+    showers: "Para ducha gratis y económica."
+    bronx: 'El Bronx'
+    queens: 'Queens'
+    manhattan: 'Manhattan'
+    staten_island: 'Staten Island'
+    brooklyn: 'Brooklyn'
+  bronx:
+    home_page:
+        header: 'The Bronx'
+        sub_header: 'The Boogie Down in Spanish'
+  queens:
+    home_page:
+        header: "Queens"
+        sub_header: 'Hogar de Spider-man'
+  manhattan:
+    home_page:
+        header: 'Manhattan'
+        sub_header: 'El Centro'
+  staten_island:
+    home_page:
+        header: 'Staten Island'
+        sub_header: 'Protect Yo Neck.'
+  brooklyn:
+    home_page:
+        header: 'Brooklyn'
+        sub_header: 'El hogar de Biggie e Hipsters'
+  
+ 
  

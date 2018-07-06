@@ -37,3 +37,23 @@ h3{
 	
 }
 
+
+#notice_wrapper{
+     position:absolute;
+     right:0;
+     width: 33%;
+     z-index: 999;
+     background: black;
+
+     .notice{
+	padding: 2.75rem;
+	text-align: center;
+	margin: 0;
+	font-size: 2em;
+	font-weight: 700;
+	color: coral;
+
+	     }
+
+}
+
