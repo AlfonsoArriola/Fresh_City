@@ -10,6 +10,9 @@
 <h4> List Of Registered Sites</h4>
 
 <% @sites.each do |site| %>
+<div class="p-3 mb-4 bg-info text-white">
+  
+
      <u>  Name </u>
        <div> <%= site.name %> </div>
      <br>
@@ -22,5 +25,5 @@
 	<%= link_to 'Edit', edit_site_path(site), 'data-disable-with': "Transferring now..." %>
 
     <%= link_to 'Remove', site_path(site), method: :delete, data: { confirm: 'Are you sure?' } %>
-
+</div>
 	<% end %>
