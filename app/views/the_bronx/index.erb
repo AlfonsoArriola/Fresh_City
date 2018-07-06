@@ -3,21 +3,45 @@
 <h3> <%= t('bronx.home_page.sub_header') %></h3>
 
 
-   <h4> List Of All Bronx Sites </h4>
+   <h4> List Of All FREE Bronx Sites </h4>
 
-<% @bx_sites.each do |bx_site| %>
+<% @bx_free_sites.each do |bx_free_site| %>
 <div class="p-3 mb-4 bg-info text-white">
   
 
      <u>  Name </u>
-       <div> <%= bx_site.name %> </div>
+       <div> <%= bx_free_site.name %> </div>
      <br>
        <u>  Address </u>
-       <div> <%= bx_site.address %> </div>
+       <div> <%= bx_free_site.address %> </div>
+     <br>
+     <u>  Cost </u>
+       <div> <%= bx_free_site.cost %> </div>
      <br>
      
 </div>
 	<% end %>
+
+
+<h4> List Of All CHEAP Bronx Sites </h4>
+
+<% @bx_cheap_sites.each do |bx_cheap_site| %>
+<div class="p-3 mb-4 bg-info text-white">
+  
+
+     <u>  Name </u>
+       <div> <%= bx_cheap_site.name %> </div>
+     <br>
+       <u>  Address </u>
+       <div> <%= bx_cheap_site.address %> </div>
+     <br>
+     <u>  Cost </u>
+       <div> <%= bx_cheap_site.cost %> </div>
+     <br>
+     
+</div>
+	<% end %>
+
 
 
 
