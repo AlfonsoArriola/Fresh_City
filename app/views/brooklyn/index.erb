@@ -3,21 +3,60 @@
 <h3> <%= t('brooklyn.home_page.sub_header') %></h3>
 
 
-   <h4> List Of All Brooklyn Sites </h4>
+ <h4> List Of All FREE Brooklyn Sites </h4>
+     <% if @bk_free_sites.empty? %>
+           <div class="row">
+          <div class="col">
+            <p class="text-center">
+              No Free Sites Available, please check back later.
+            </p>    
+          </div>
+           </div>
 
-<% @bk_sites.each do |bk_site| %>
-<div class="p-3 mb-4 bg-info text-white">
-  
+  <% else %>
 
-     <u>  Name </u>
-       <div> <%= bk_site.name %> </div>
-     <br>
-       <u>  Address </u>
-       <div> <%= bk_site.address %> </div>
-     <br>
-      <u>  Cost </u>
-       <div> <%= bk_site.cost %> </div>
-     <br>
-     
-</div>
-	<% end %>
+
+        <% @bk_free_sites.each do |bk_free_site| %>
+        <div class="p-3 mb-4 bg-info text-white">
+             <u>  Name </u>
+               <div> <%= bk_free_site.name %> </div>
+             <br>
+               <u>  Address </u>
+               <div> <%= bk_free_site.address %> </div>
+             <br>
+             <u>  Cost </u>
+               <div> <%= bk_free_site.cost %> </div>
+             <br>
+             
+        </div>
+      <% end %>
+   <% end %>
+
+
+<h4> List Of All CHEAP Brooklyn Sites </h4>
+
+    <% if @bk_cheap_sites.empty? %>
+           <div class="row">
+          <div class="col">
+            <p class="text-center">
+              No Cheap Sites Available, please check back later.
+            </p>    
+          </div>
+           </div>
+  <% else %>
+
+       <% @bk_cheap_sites.each do |bk_cheap_site| %>
+        <div class="p-3 mb-4 bg-info text-white">       
+               <u>  Name </u>
+               <div> <%= bk_cheap_site.name %> </div>
+             <br>
+               <u>  Address </u>
+               <div> <%= bk_cheap_site.address %> </div>
+             <br>
+             <u>  Cost </u>
+               <div> <%= bk_cheap_site.cost %> </div>
+             <br>
+             
+        </div>
+      <% end %>
+  <% end %>

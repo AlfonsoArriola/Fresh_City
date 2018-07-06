@@ -2,18 +2,61 @@
 
 <h3> <%= t('manhattan.home_page.sub_header') %></h3>
 
-   <h4> List Of All Bronx Sites </h4>
 
-<% @m_sites.each do |bx_site| %>
-<div class="p-3 mb-4 bg-info text-white">
-  
+ <h4> List Of All FREE Manhattan Sites </h4>
+     <% if @m_free_sites.empty? %>
+			     <div class="row">
+					<div class="col">
+						<p class="text-center">
+							No Free Sites Available, please check back later.
+						</p>		
+					</div>
+			     </div>
 
-     <u>  Name </u>
-       <div> <%= m_site.name %> </div>
-     <br>
-       <u>  Address </u>
-       <div> <%= m_site.address %> </div>
-     <br>
-     
-</div>
+	<% else %>
+
+
+		   	<% @m_free_sites.each do |m_free_site| %>
+				<div class="p-3 mb-4 bg-info text-white">
+				     <u>  Name </u>
+				       <div> <%= m_free_site.name %> </div>
+				     <br>
+				       <u>  Address </u>
+				       <div> <%= m_free_site.address %> </div>
+				     <br>
+				     <u>  Cost </u>
+				       <div> <%= m_free_site.cost %> </div>
+				     <br>
+				     
+				</div>
+			<% end %>
+   <% end %>
+
+
+<h4> List Of All CHEAP Manhattan Sites </h4>
+
+    <% if @m_cheap_sites.empty? %>
+			     <div class="row">
+					<div class="col">
+						<p class="text-center">
+							No Cheap Sites Available, please check back later.
+						</p>		
+					</div>
+			     </div>
+	<% else %>
+
+		   <% @m_cheap_sites.each do |m_cheap_site| %>
+				<div class="p-3 mb-4 bg-info text-white">			  
+	     		     <u>  Name </u>
+				       <div> <%= m_cheap_site.name %> </div>
+				     <br>
+				       <u>  Address </u>
+				       <div> <%= m_cheap_site.address %> </div>
+				     <br>
+				     <u>  Cost </u>
+				       <div> <%= m_cheap_site.cost %> </div>
+				     <br>
+				     
+				</div>
+			<% end %>
 	<% end %>

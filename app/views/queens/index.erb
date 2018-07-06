@@ -3,18 +3,63 @@
 <h3> <%= t('queens.home_page.sub_header') %></h3>
 
 
-   <h4> List Of All Queens Sites </h4>
+  <h4> List Of All FREE Queens Sites </h4>
+     <% if @q_free_sites.empty? %>
+			     <div class="row">
+					<div class="col">
+						<p class="text-center">
+							No Free Sites Available, please check back later.
+						</p>		
+					</div>
+			     </div>
 
-<% @q_sites.each do |q_site| %>
-<div class="p-3 mb-4 bg-info text-white">
-  
+	<% else %>
 
-     <u>  Name </u>
-       <div> <%= q_site.name %> </div>
-     <br>
-       <u>  Address </u>
-       <div> <%= q_site.address %> </div>
-     <br>
-     
-</div>
+
+		   	<% @q_free_sites.each do |q_free_site| %>
+				<div class="p-3 mb-4 bg-info text-white">
+				     <u>  Name </u>
+				       <div> <%= q_free_site.name %> </div>
+				     <br>
+				       <u>  Address </u>
+				       <div> <%= q_free_site.address %> </div>
+				     <br>
+				     <u>  Cost </u>
+				       <div> <%= q_free_site.cost %> </div>
+				     <br>
+				     
+				</div>
+			<% end %>
+   <% end %>
+
+
+<h4> List Of All CHEAP Queens Sites </h4>
+
+    <% if @q_cheap_sites.empty? %>
+			     <div class="row">
+					<div class="col">
+						<p class="text-center">
+							No Cheap Sites Available, please check back later.
+						</p>		
+					</div>
+			     </div>
+	<% else %>
+
+		   <% @q_cheap_sites.each do |q_cheap_site| %>
+				<div class="p-3 mb-4 bg-info text-white">			  
+	     		     <u>  Name </u>
+				       <div> <%= q_cheap_site.name %> </div>
+				     <br>
+				       <u>  Address </u>
+				       <div> <%= q_cheap_site.address %> </div>
+				     <br>
+				     <u>  Cost </u>
+				       <div> <%= q_cheap_site.cost %> </div>
+				     <br>
+				     
+				</div>
+			<% end %>
 	<% end %>
+
+
+
