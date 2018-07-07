@@ -9,3 +9,7 @@ ru:
     russian: 'русский'
     chinese: '中文'
     arabic: 'عربى'
+  generic:
+    free_list_title: 'Бесплатные дожди.'
+    free_list_none: "В настоящее время нет ливней, пожалуйста, проверьте позже."
+    cheap_list_title: 'Дешевые душ.'

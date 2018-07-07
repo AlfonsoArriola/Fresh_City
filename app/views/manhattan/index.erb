@@ -3,12 +3,12 @@
 <h3> <%= t('manhattan.home_page.sub_header') %></h3>
 
 
- <h4> List Of All FREE Manhattan Sites </h4>
+ <h4> <%= t('generic.free_list_title') %> </h4>
      <% if @m_free_sites.empty? %>
 			     <div class="row">
 					<div class="col">
 						<p class="text-center">
-							No Free Sites Available, please check back later.
+							<%= t('generic.free_list_none') %>
 						</p>		
 					</div>
 			     </div>
@@ -33,13 +33,14 @@
    <% end %>
 
 
-<h4> List Of All CHEAP Manhattan Sites </h4>
+
+<h4> <%= t('generic.cheap_list_title') %> </h4>
 
     <% if @m_cheap_sites.empty? %>
 			     <div class="row">
 					<div class="col">
 						<p class="text-center">
-							No Cheap Sites Available, please check back later.
+							<%= t('generic.free_list_none') %>
 						</p>		
 					</div>
 			     </div>

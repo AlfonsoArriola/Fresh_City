@@ -2,12 +2,12 @@
 
 <h3> <%= t('staten_island.home_page.sub_header') %></h3>
 
-  <h4> List Of All FREE Staten Island Sites </h4>
+  <h4> <%= t('generic.free_list_title') %> </h4>
      <% if @si_free_sites.empty? %>
 			     <div class="row">
 					<div class="col">
 						<p class="text-center">
-							No Free Sites Available, please check back later.
+							<%= t('generic.free_list_none') %>
 						</p>		
 					</div>
 			     </div>
@@ -32,13 +32,14 @@
    <% end %>
 
 
-<h4> List Of All CHEAP Staten Island Sites </h4>
+
+<h4> <%= t('generic.cheap_list_title') %> </h4>
 
     <% if @si_cheap_sites.empty? %>
 			     <div class="row">
 					<div class="col">
 						<p class="text-center">
-							No Cheap Sites Available, please check back later.
+							<%= t('generic.free_list_none') %>
 						</p>		
 					</div>
 			     </div>

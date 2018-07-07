@@ -9,6 +9,10 @@ es:
     russian: 'русский'
     chinese: '中文'
     arabic: 'عربى'
+  generic:
+    free_list_title: 'Duchas gratuitas.'
+    free_list_none: "Ninguno en este momento, por favor revise más tarde."
+    cheap_list_title: 'Duchas baratas.'
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'

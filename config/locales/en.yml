@@ -40,6 +40,10 @@ en:
     russian: 'русский'
     chinese: '中文'
     arabic: 'عربى'
+  generic:
+    free_list_title: 'Free showers.'
+    free_list_none: "No showers listed at this time, please check again later."
+    cheap_list_title: 'Cheap.'
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'

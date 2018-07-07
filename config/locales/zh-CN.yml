@@ -9,3 +9,7 @@ zh-CN:
     russian: 'русский'
     chinese: '中文'
     arabic: 'عربى'
+  generic:
+    free_list_title: '免费淋浴。'
+    free_list_none: "此时没有列出淋浴，请稍后再查看。"
+    cheap_list_title: '廉价淋浴。'
