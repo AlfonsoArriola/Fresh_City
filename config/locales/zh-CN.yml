@@ -1,8 +1,8 @@
 zh-CN:
   title_and_nav:
-    title: '新鲜的城市'
+    title: '家'
     home: '家'
-    header: '甜妹妹!'
+    header: '新鲜的城市'
     sub:  "纽约市免费和廉价淋浴的主要目录"    
     english: 'English'
     spanish: 'Español'
@@ -13,3 +13,19 @@ zh-CN:
     free_list_title: '免费淋浴。'
     free_list_none: "此时没有列出淋浴，请稍后再查看。"
     cheap_list_title: '廉价淋浴。'
+  about:
+    welcome: "欢迎"
+    p_1: "目前跟踪免费和廉价的淋浴
+                         在纽约市的5个区域内可用。即将推出的Fresh City还将追踪提供免费理发的地方，以及随后的免费洗衣服务"
+    p_2: "没有知识，努力工作和亲属，我们就不会存在 "
+    p_3: "他们对更好的社区的大胆愿景是灵感"
+    p_4: "最后，我们感谢你。收集所有这些数据是社区事务。请留下我们与我们联系，了解其他提供淋浴的地点，您可能遇到的问题，或者只是感谢您。"
+  site_home:
+    add_new_site: "Click To Register A New Site."
+    find_by_boro: "选择一个自治市镇"
+    showers: "免费和廉价淋浴"
+    bronx: '布朗克斯'
+    queens: '皇后'
+    manhattan: '曼哈顿'
+    staten_island: '斯塔滕岛'
+    brooklyn: '布鲁克林'

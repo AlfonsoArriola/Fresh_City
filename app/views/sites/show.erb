@@ -6,7 +6,12 @@
 
 </div>
 <div>
-	Address:
+	Last Updated: 
+	<%= @site.updated_at %>
+
+</div>
+<div>
+	Cost:
 	 <%= @site.cost%>
 
 </div>
@@ -70,6 +75,12 @@
 	<%= @site.shower_shoe %>
 
 </div>
+
+
+<%= image_tag "http://maps.google.com/maps/api/staticmap?size=500x400&sensor=false&zoom=14&markers=#{@site.latitude}%2C#{@site.longitude}&key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko" %>
+
+
+
 <div>
 	Things to note: 
 	<%= @site.note %>

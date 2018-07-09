@@ -7,6 +7,7 @@
  <!--  	end  -->
 </h4>
 
+
 <h4> List Of Registered Sites</h4>
 
 <% @sites.each do |site| %>
@@ -18,6 +19,9 @@
      <br>
        <u>  Address </u>
        <div> <%= site.address %> </div>
+     <br>
+      <u>  Last Updated </u>
+       <div> <%= site.updated_at %> </div>
      <br>
      
      <%= link_to 'Full Info', site_path(site), 'data-disable-with': "Hold, please..." %>

@@ -9,38 +9,35 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
-
+ *= require bootstrap/scss/bootstrap
+ *= require_tree .
+ *= require_self
  */
-@import "bootstrap";
-@font-face {
-	
-}
 
-body{
-	background: url(image-path('soap_bars.jpeg'));
-    background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-}
+
+
 .nav-item{
 	margin: 0rem 1rem;
 }
 
-h1 {
-  font-size: 5em;
-
+.jumbotron_2{
+	background-image: url(image-path('soap_bars.jpeg'));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	height: 11rem;
+	position:relative;
+	overflow:hidden;
 }
 
 h3{
 	color:coral;
-	
 }
 
 a{
 	color:gold;
 }
-
 
 #notice_wrapper{
      position:absolute;
@@ -56,7 +53,6 @@ a{
 	font-size: 2em;
 	font-weight: 700;
 	color: coral;
-
 	     }
 
 }
@@ -64,10 +60,19 @@ a{
 .bottom_space{
 	height: 7rem;
 }
+
 .footer{
 	height: 5rem;
 }
 
+ @media only screen and (max-width: 600px) {
+    .bottom_space{
+	    height: 3rem;
+}
+    .footer{
+        height: 3rem;
+    }
+}
 
 
 

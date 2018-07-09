@@ -2,11 +2,103 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "bootstrap";
+
+.jumbotron {
+	background-image: url(image-path('soap_bars.jpeg'));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	height: 27rem;
+	position:relative;
+	overflow:hidden;
+}
+
+h1 {
+  font-size: 7em;
+  color: white;
+  text-shadow: 2px 2px blue;
+}
+
+.mini_blurbs{
+	font-size: 2em;
+}
+
+.the_boroughs{
+	position:relative;
+	overflow:hidden;	
+}
+.borough{
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	font-size: 4em;
+}
+
+.borough img{
+	height: 5rem;
+	float:right;
+	border-radius: 50%;
+}
 
 
-body{
+.bx_select{
+	background-image: url(image-path('soap_bars.jpeg'));	
+}
+
+.q_select{
+	background-image: url(image-path('soap_bars.jpeg'));
 	
+}
+
+.m_select{
+	background-image: url(image-path('soap_bars.jpeg'));
+}
+
+.si_select{
+	background-image: url(image-path('soap_bars.jpeg'));
+}
+
+.bk_select{
+	background-image: url(image-path('soap_bars.jpeg'));
+}
+
+
+ @media only screen and (max-width: 600px) {
+    .jumbotron{
+        height:22rem;
+    }
+    h1{
+        font-size: 4em;
+    }
+    .about{
+        display:none;
+    }
+
+    .the_boroughs{
+        font-size: .6em;
+    }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,8 +1,8 @@
 es:
   title_and_nav:
-    title: 'Ciudad Fresca'
+    title: 'Casa'
     home: 'Casa'
-    header: '¡Dulce hermana!'
+    header: 'Ciudad Fresca'
     sub:  "Directorio líder de la ciudad de Nueva York para duchas gratuitas y baratas"    
     english: 'English'
     spanish: 'Español'
@@ -13,6 +13,13 @@ es:
     free_list_title: 'Duchas gratuitas.'
     free_list_none: "Ninguno en este momento, por favor revise más tarde."
     cheap_list_title: 'Duchas baratas.'
+  about:
+    welcome: "¡Bienvenido!"
+    p_1: " Fresh City actualmente realiza un seguimiento de las duchas gratuitas y baratas
+                         disponible dentro de los 5 condados de la ciudad de Nueva York. Próximamente, Fresh City también hará un seguimiento de los lugares que ofrecen cortes de cabello gratis y, más adelante, lavandería gratis."
+    p_2: "No existiríamos sin el conocimiento, el trabajo duro y la amabilidad de "
+    p_3: "Su visión audaz para una comunidad mejor sirve de inspiración."
+    p_4: "Por último, estamos agradecidos por ti. Reunir todos estos datos es un asunto de la comunidad. Por favor, déjenos contactarnos sobre otros lugares que ofrecen duchas, problemas que pueda tener, o simplemente para agradecer."
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'

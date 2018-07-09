@@ -1,62 +1,126 @@
-<h2> <%= t('staten_island.home_page.header') %></h2>
+<div class="jumbotron_2">
+  <div class="container">
+  	<div class="row">
+		<div class="col text-center pt-4">
+			<h2> <%= t('staten_island.home_page.header') %></h2>
 
-<h3> <%= t('staten_island.home_page.sub_header') %></h3>
-
-  <h4> <%= t('generic.free_list_title') %> </h4>
-     <% if @si_free_sites.empty? %>
-			     <div class="row">
-					<div class="col">
-						<p class="text-center">
-							<%= t('generic.free_list_none') %>
-						</p>		
-					</div>
-			     </div>
-
-	<% else %>
-
-
-		   	<% @si_free_sites.each do |si_free_site| %>
-				<div class="p-3 mb-4 bg-info text-white">
-				     <u>  Name </u>
-				       <div> <%= si_free_site.name %> </div>
-				     <br>
-				       <u>  Address </u>
-				       <div> <%= si_free_site.address %> </div>
-				     <br>
-				     <u>  Cost </u>
-				       <div> <%= si_free_site.cost %> </div>
-				     <br>
-				     
-				</div>
-			<% end %>
-   <% end %>
+             <h3> <%= t('staten_island.home_page.sub_header') %></h3> 
+		</div>	
+    </div>  
+  </div>
+</div>
 
 
 
-<h4> <%= t('generic.cheap_list_title') %> </h4>
 
-    <% if @si_cheap_sites.empty? %>
-			     <div class="row">
-					<div class="col">
-						<p class="text-center">
-							<%= t('generic.free_list_none') %>
-						</p>		
-					</div>
-			     </div>
-	<% else %>
+<div class="row">
+	<div class="col">
 
-		   <% @si_cheap_sites.each do |si_cheap_site| %>
-				<div class="p-3 mb-4 bg-info text-white">			  
-	     		     <u>  Name </u>
-				       <div> <%= si_cheap_site.name %> </div>
-				     <br>
-				       <u>  Address </u>
-				       <div> <%= si_cheap_site.address %> </div>
-				     <br>
-				     <u>  Cost </u>
-				       <div> <%= si_cheap_site.cost %> </div>
-				     <br>
-				     
-				</div>
-			<% end %>
-	<% end %>
+		   <div class="row the_boroughs m-5">
+			   	 <div class="col-lg-7 col-sm-0 about p-5">
+			   	 
+			   	 </div>
+
+			   	 <div class="col-lg-5 col-sm-12">
+			   	 	     <div class="row pre-scrollable">
+			   	 	     	<div class="col">
+			   	 	     		   <h4> <%= t('generic.free_list_title') %> </h4>
+									     <% if @si_free_sites.empty? %>
+												     <div class="row">
+														<div class="col">
+															<p class="text-center">
+																<%= t('generic.free_list_none') %>
+															</p>		
+														</div>
+												     </div>
+
+										<% else %>
+
+
+											   	<% @si_free_sites.each do |si_free_site| %>
+													<div class="p-3 mb-4 bg-info text-white">
+													     <u>  Name </u>
+													       <div> <%= si_free_site.name %> </div>
+													     <br>
+													       <u>  Address </u>
+													       <div> <%= si_free_site.address %> </div>
+													     <br>
+													     <u>  Cost </u>
+													       <div> <%= si_free_site.cost %> </div>
+													     <br>
+													     
+													</div>
+												<% end %>
+									   <% end %>
+			   	 	     	</div>
+			   	 	     </div> 
+			   	 	     <div class="row pre-scrollable">
+			   	 	     	<div class="col">
+			   	 	     		<h4> <%= t('generic.cheap_list_title') %> </h4>
+
+								    <% if @si_cheap_sites.empty? %>
+											     <div class="row">
+													<div class="col">
+														<p class="text-center">
+															<%= t('generic.free_list_none') %>
+														</p>		
+													</div>
+											     </div>
+									<% else %>
+
+										   <% @si_cheap_sites.each do |si_cheap_site| %>
+												<div class="p-3 mb-4 bg-info text-white">			  
+									     		     <u>  Name </u>
+												       <div> <%= si_cheap_site.name %> </div>
+												     <br>
+												       <u>  Address </u>
+												       <div> <%= si_cheap_site.address %> </div>
+												     <br>
+												     <u>  Cost </u>
+												       <div> <%= si_cheap_site.cost %> </div>
+												     <br>
+												     
+												</div>
+											<% end %>
+									<% end %>
+			   	 	     	</div>
+			   	 	     </div>    
+
+					   	 	
+						  	 	
+		   	     </div>
+		   </div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
