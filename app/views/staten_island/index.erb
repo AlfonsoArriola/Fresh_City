@@ -48,6 +48,10 @@
 													     <u>  Cost </u>
 													       <div> <%= si_free_site.cost %> </div>
 													     <br>
+													       <u>  Full Info </u>
+												           <div> <%= link_to 'Click Here', staten_island_path(si_free_site) %></div>
+												          <br>
+
 													     
 													</div>
 												<% end %>
@@ -79,7 +83,10 @@
 												     <u>  Cost </u>
 												       <div> <%= si_cheap_site.cost %> </div>
 												     <br>
-												     
+												       <u>  Full Info </u>
+												       <div> <%= link_to 'Click Here', staten_island_path(si_cheap_site) %></div>
+												     <br>
+
 												</div>
 											<% end %>
 									<% end %>

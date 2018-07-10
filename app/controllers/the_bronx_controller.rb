@@ -8,6 +8,6 @@ class TheBronxController < ApplicationController
      def show
      	sites = Site.all
 		bx_sites = sites.where(borough_id: 1)
-		@bx_free_site = bx_sites.find(params[:id])		
+		@site = bx_sites.find(params[:id])		
      end
 end

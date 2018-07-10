@@ -14,14 +14,28 @@
  *= require_self
  */
 
+@font-face{
+	font-family: "Tengwarc";
+	src: url('/assets/Tengwarc') format("truetype");
 
+	font-family: "ModernWakandan_Bold";
+	src: url('/assets/ModernWakandan_Bold') format("truetype");
+}
+
+body{
+	font-family: "Lucida Console";
+}
+
+p{
+	font-family: "ModernWakandan_Bold" , sans-serif;
+}
 
 .nav-item{
 	margin: 0rem 1rem;
 }
 
 .jumbotron_2{
-	background-image: url(image-path('soap_bars.jpeg'));
+	background-image: url(image-path('white_2.jpg'));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
@@ -44,7 +58,7 @@ a{
      right:0;
      width: 33%;
      z-index: 999;
-     background: black;
+     background: gold;
 
      .notice{
 	padding: 2.75rem;
@@ -52,7 +66,7 @@ a{
 	margin: 0;
 	font-size: 2em;
 	font-weight: 700;
-	color: coral;
+	color: black;
 	     }
 
 }

@@ -12,10 +12,10 @@ $(document).ready(function(){
 
 
 
- $(".bx_select").hover(function(){
-        $(this).css("color", "red");
+ $("p").hover(function(){
+        $(this).css("font-family: ", "Tengwarc");
         }, function(){
-        $(this).css("color", "pink");
+        $(this).css("font-family: ", "Tengwarc");
     });
 
 
