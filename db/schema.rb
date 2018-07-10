@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_05_230752) do
+ActiveRecord::Schema.define(version: 2018_07_06_180841) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,15 +36,6 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "boroughs_sites", force: :cascade do |t|
-    t.bigint "borough_id"
-    t.bigint "site_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["borough_id"], name: "index_boroughs_sites_on_borough_id"
-    t.index ["site_id"], name: "index_boroughs_sites_on_site_id"
   end
 
   create_table "prospect_sites", force: :cascade do |t|
@@ -75,6 +66,9 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.string "website"
     t.string "phone"
     t.string "location_type"
+    t.bigint "borough_id"
+    t.string "cost"
+    t.index ["borough_id"], name: "index_sites_on_borough_id"
   end
 
   create_table "trains", force: :cascade do |t|
@@ -92,8 +86,7 @@ ActiveRecord::Schema.define(version: 2018_07_05_230752) do
     t.index ["train_id"], name: "index_trains_sites_on_train_id"
   end
 
-  add_foreign_key "boroughs_sites", "boroughs"
-  add_foreign_key "boroughs_sites", "sites"
+  add_foreign_key "sites", "boroughs"
   add_foreign_key "trains_sites", "sites"
   add_foreign_key "trains_sites", "trains"
 end

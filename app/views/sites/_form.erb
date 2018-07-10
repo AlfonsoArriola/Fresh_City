@@ -4,6 +4,11 @@
 		 	 <%= f.text_field :name %>
 		  </div>
 		  <div>
+		 	 <%= f.label :cost %>
+		 	 <%= f.select(:cost, ["Free", "Membership Required",
+		         "See Notes"]) %>
+		  </div>
+		  <div>
 		 	 <%= f.label :address %>
 		 	 <%= f.text_field :address %>
 		  </div>
@@ -16,6 +21,10 @@
 		 	 <%= f.text_field :location_type %>
 		  </div>
 		  <div>
+		 	 <%= f.label :borough_id %>
+		 	 <%= f.select(:borough_id, @boroughs.map {|b| [b.name, b.id]}) %>
+		  </div>
+		  <div>
 		 	 <%= f.label :gender %>
 		 	 <%= f.select(:gender, [  "Women" ,
 		          "Men", "Any", "See Notes"]) %>
@@ -26,7 +35,7 @@
 		 </div>	
 		 <div>
 		 	 <%= f.label :days_of_the_week_and_hours_of_operation, t('site_form.days_of_the_week_and_hours_of_operation') %>
-		 	 <%= f.text_field :days_of_the_week_and_hours_of_operation %>
+		 	 <%= f.text_field :days_of_the_week_and_hours_of_operation%>
 		  </div>
 		   <div>
 		 	 <%= f.label :towel  %>
@@ -43,16 +52,17 @@
 		 	 <%= f.select(:soap,  [  "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
+		  <div>
+		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %>
+		 	 <%= f.select(:feminine_hygiene,  ["Yes" ,"No", "See Notes"]) %>
+		  </div>
 		 
 		  
 		  <div>
 		 	 <%= f.label :website %>
 		 	 <%= f.text_field :website %>
 		  </div>
-		  <div>
-		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %>
-		 	 <%= f.select(:feminine_hygiene,  ["Yes" ,"No"]) %>
-		  </div>
+		  
 		  <div>
 		 	 <%= f.label :note %>
 		 	 <%= f.text_area :note, size: "40x12" %>

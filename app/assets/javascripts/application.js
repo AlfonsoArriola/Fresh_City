@@ -35,3 +35,20 @@ $(document).ready(function(){
   }, 4500);
 
 }); 
+
+
+
+
+
+
+$(document).ready(function(){
+
+
+    $(".bk_select").hover(function(){
+        $(this).css("background-image", "url(image-path('bx_flag2.png'))");
+        }, function(){
+        $(this).css("background-image", "url(image-path('bx_flag2.png'))");
+    });
+
+
+});

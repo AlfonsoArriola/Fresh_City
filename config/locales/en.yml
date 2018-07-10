@@ -31,15 +31,26 @@
 
 en:
   title_and_nav:
-    title: 'Fresh City'
+    title: 'Home'
     home: 'Home'
-    header: 'Sweet Sister!'
+    header: 'Fresh City'
     sub: "New York City's leading directory for free & cheap showers"
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
     chinese: '中文'
     arabic: 'عربى'
+  generic:
+    free_list_title: 'Free showers.'
+    free_list_none: "No showers listed at this time, please check again later."
+    cheap_list_title: 'Cheap.'
+  about:
+    welcome: "Welcome!"
+    p_1: " Fresh City currently keeps track of the free and cheap showers
+                         available within the 5 boroughs of New York City.  Coming soon, Fresh City will also track places that offer free haircuts, and later, free laundry"
+    p_2: " We would not exist without the knowledge, hard-work, & kindness of "
+    p_3: " Their bold vision for a better community serves as inspiration."
+    p_4: "Lastly, we are grateful for you.  Gathering all this data is a community affair.  Please, leave us contact us about other locations offering showers, issues you might have, or just to say thanks."
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'

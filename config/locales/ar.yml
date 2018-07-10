@@ -1,14 +1,25 @@
 ar:
   title_and_nav:
-    title: 'مدينة جديدة'
+    title: 'الصفحة الرئيسية'
     home: 'الصفحة الرئيسية'
-    header: 'أخت جميلة!'
+    header: 'مدينة جديدة'
     sub:  "الدليل الرائد في مدينة نيويورك للاستحمام الحرة ورخيصة"    
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
     chinese: '中文'
     arabic: 'عربى'
+  generic:
+    free_list_title: 'الاستحمام الحرة'
+    free_list_none: "لا توجد حمامات مدرجة في هذا الوقت ، يرجى التحقق مرة أخرى لاحقًا."
+    cheap_list_title: 'الاستحمام رخيصة'
+  about:
+    welcome: "أهلا بك!"
+    p_1: "فريش سيتي يتتبع حاليا الاستحمام الحرة ورخيصة
+                         المتاحة داخل الأحياء 5 من مدينة نيويورك. قريباً ، سوف تتعقب فريش سيتي أيضًا الأماكن التي تقدم حلاقة مجانية ، وغسيل الملابس في وقتٍ لاحق. "
+    p_2: "لن نكون موجودين بدون المعرفة ، والعمل الجاد ، والعطف "
+    p_3: "رؤيتهم الجريئة لمجتمع أفضل بمثابة مصدر إلهام."
+    p_4: "أخيرا ، نحن ممتنون لك. جمع كل هذه البيانات هو شأن مجتمعي. يرجى ترك لنا الاتصال بنا حول مواقع أخرى تقدم الاستحمام ، والقضايا قد يكون لديك ، أو لمجرد أن أقول شكرا."
   site_form: 
     header: 'تسجيل الموقع الجديد'
     name: 'اسم'
@@ -23,3 +34,38 @@ ar:
     note: "أشياء للملاحظة"
   site_home:
     add_new_site: "Click To Register A New Site."
+    find_by_boro: "اختر A بورو"
+    showers: "للاستحمام الحرة ورخيصة"
+    bronx: 'ذا برونكس'
+    queens: 'كوينز'
+    manhattan: 'مانهاتن'
+    staten_island: 'جزيرة ستاتن'
+    brooklyn: 'بروكلين'
+  bronx:
+    home_page:
+        header: 'ذا برونكس'
+        sub_header: 'The Boogie Down'
+  queens:
+    home_page:
+        header: 'كوينز'
+        sub_header: 'Home Of Spider-Man'
+  manhattan:
+    home_page:
+        header: 'مانهاتن'
+        sub_header: 'The Center'
+  staten_island:
+    home_page:
+        header: 'جزيرة ستاتن'
+        sub_header: 'Protect Yo Neck.'
+  brooklyn:
+    home_page:
+        header: 'بروكلين'
+        sub_header: 'Home of Biggie & Hipsters.'
+
+
+
+
+
+
+
+

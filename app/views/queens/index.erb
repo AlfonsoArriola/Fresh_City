@@ -1,3 +1,141 @@
-<h2> <%= t('queens.home_page.header') %></h2>
 
-<h3> <%= t('queens.home_page.sub_header') %></h3>
+<div class="jumbotron_2">
+  <div class="container">
+  	<div class="row">
+		<div class="col text-center pt-4">
+			<h2> <%= t('queens.home_page.header') %></h2>
+
+            <h3> <%= t('queens.home_page.sub_header') %></h3> 
+		</div>	
+    </div>  
+  </div>
+</div>
+
+
+
+
+<div class="row">
+	<div class="col">
+
+		   <div class="row the_boroughs m-5">
+			   	 <div class="col-lg-7 col-sm-0 about p-5">
+			   	 
+			   	 </div>
+
+			   	 <div class="col-lg-5 col-sm-12">
+			   	 	     <div class="row pre-scrollable">
+			   	 	     	<div class="col">
+								      <h4> <%= t('generic.free_list_title') %> </h4>
+									   <% if @q_free_sites.empty? %>
+												     <div class="row">
+														<div class="col">
+															<p class="text-center">
+																<%= t('generic.free_list_none') %>
+															</p>		
+														</div>
+												     </div>
+
+										<% else %>
+
+
+											   	<% @q_free_sites.each do |q_free_site| %>
+													<div class="p-3 mb-4 bg-info text-white">
+													     <u>  Name </u>
+													       <div> <%= q_free_site.name %> </div>
+													     <br>
+													       <u>  Address </u>
+													       <div> <%= q_free_site.address %> </div>
+													     <br>
+													     <u>  Cost </u>
+													       <div> <%= q_free_site.cost %> </div>
+													     <br>
+													     <u>  Full Info </u>
+												           <div> <%= link_to 'Click Here', queen_path(q_free_site) %></div>
+												         <br>
+
+													     
+													</div>
+												<% end %>
+									   <% end %>
+			   	 	     	</div>
+			   	 	     </div> 
+			   	 	     <div class="row pre-scrollable">
+			   	 	     	<div class="col">
+			   	 	     		<h4> <%= t('generic.cheap_list_title') %> </h4>
+								    <% if @q_cheap_sites.empty? %>
+											     <div class="row">
+													<div class="col">
+														<p class="text-center">
+															<%= t('generic.free_list_none') %>
+														</p>		
+													</div>
+											     </div>
+									<% else %>
+
+										   <% @q_cheap_sites.each do |q_cheap_site| %>
+												<div class="p-3 mb-4 bg-info text-white">			  
+									     		     <u>  Name </u>
+												       <div> <%= q_cheap_site.name %> </div>
+												     <br>
+												       <u>  Address </u>
+												       <div> <%= q_cheap_site.address %> </div>
+												     <br>
+												     <u>  Cost </u>
+												       <div> <%= q_cheap_site.cost %> </div>
+												     <br>
+												       <u>  Full Info </u>
+												       <div> <%= link_to 'Click Here', queen_path(q_cheap_site) %></div>
+												     <br>
+
+												     
+												</div>
+											<% end %>
+									<% end %>
+			   	 	     	</div>
+			   	 	     </div>    
+
+					   	 	
+						  	 	
+		   	     </div>
+		   </div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

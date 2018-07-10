@@ -9,45 +9,57 @@
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
- *
-
+ *= require bootstrap/scss/bootstrap
+ *= require_tree .
+ *= require_self
  */
-@import "bootstrap";
-@font-face {
-	
+
+@font-face{
+	font-family: "Tengwarc";
+	src: url('/assets/Tengwarc') format("truetype");
+
+	font-family: "ModernWakandan_Bold";
+	src: url('/assets/ModernWakandan_Bold') format("truetype");
 }
 
 body{
-	background: url(image-path('soap_bars.jpeg'));
-    background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
+	font-family: "Lucida Console";
 }
+
+p{
+	font-family: "ModernWakandan_Bold" , sans-serif;
+}
+
 .nav-item{
 	margin: 0rem 1rem;
 }
 
-h1 {
-  font-size: 5em;
-
+.jumbotron_2{
+	background-image: url(image-path('white_2.jpg'));
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
+	height: 11rem;
+	position:relative;
+	overflow:hidden;
 }
 
 h3{
-	color:coral;
-	
+	color:black;
 }
 
 a{
-	color:gold;
+  color:coral;
+  text-shadow:none;
 }
-
 
 #notice_wrapper{
      position:absolute;
      right:0;
      width: 33%;
      z-index: 999;
-     background: black;
+     background: gold;
 
      .notice{
 	padding: 2.75rem;
@@ -55,19 +67,45 @@ a{
 	margin: 0;
 	font-size: 2em;
 	font-weight: 700;
-	color: coral;
-
+	color: black;
 	     }
 
+}
+
+.bubble{
+	border-radius: 50%;
+	height:13rem;
+	width:13rem;
+}
+
+.bubble2{
+	border-radius: 50%;
+	height:22rem;
+	width:22rem;
 }
 
 .bottom_space{
 	height: 7rem;
 }
+
 .footer{
-	height: 5rem;
+	height: 7rem;
+    border-top: double;
+	font-size: 1.1em;
+}
+.footer a{
+	color:blue;
 }
 
+
+ @media only screen and (max-width: 600px) {
+    .bottom_space{
+	    height: 3rem;
+}
+    .footer{
+        height: 3rem;
+    }
+}
 
 
 

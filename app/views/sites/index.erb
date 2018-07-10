@@ -1,29 +1,50 @@
-<h2> <%= t('title_and_nav.title') %></h2>
+<div class="row">
+  <div class="col-lg-5 col-sm-12 p-2">
+
+      <h2> <%= t('title_and_nav.title') %></h2>
 
 
 <h4>
-	<!--  if current_admin  -->
-  	   <%= link_to t('site_home.add_new_site') , new_site_path %>
- <!--  	end  -->
+  <!--  if current_admin  -->
+       <%= link_to t('site_home.add_new_site') , new_site_path %>
+ <!--   end  -->
 </h4>
 
-<h4> List Of Registered Sites</h4>
+    
+  </div>
+  <div class="col-lg-7 col-sm-12 p-4">
+      <h4> Number Of Registered Sites:</h4>  
+      <h3><b><%= @sites.count %></b> </h3>
+        
 
-<% @sites.each do |site| %>
-<div class="p-3 mb-4 bg-info text-white">
-  
 
-     <u>  Name </u>
-       <div> <%= site.name %> </div>
-     <br>
-       <u>  Address </u>
-       <div> <%= site.address %> </div>
-     <br>
-     
-     <%= link_to 'Full Info', site_path(site), 'data-disable-with': "Hold, please..." %>
-	
-	<%= link_to 'Edit', edit_site_path(site), 'data-disable-with': "Transferring now..." %>
+          <% @sites.each do |site| %>
+          <div class="p-5 mb-4 bg-info text-white bubble2 text-center">
+            
 
-    <%= link_to 'Remove', site_path(site), method: :delete, data: { confirm: 'Are you sure?' } %>
+               <u>  Name </u>
+                 <div> <%= site.name %> </div>
+               <br>
+                 <u>  Address </u>
+                 <div> <%= site.address %> </div>
+               <br>
+                <u>  Last Updated </u>
+                 <div> <%= site.updated_at.strftime("%B %-d, %Y") %> </div>
+               <br>
+               
+               <%= link_to 'Full Info', site_path(site), 'data-disable-with': "Hold, please..." %> |
+            
+            <%= link_to 'Edit', edit_site_path(site), 'data-disable-with': "Transferring now..." %>
+               |
+              <%= link_to 'Remove', site_path(site), method: :delete, data: { confirm: 'Are you sure?' } %>
+          </div>
+            <% end %>
+    
+  </div>
 </div>
-	<% end %>
+
+
+
+
+
+
