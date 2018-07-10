@@ -11,14 +11,15 @@
   
   </div>
   <div class="col-lg-7 col-sm-12 p-4">
-      <h4> List Of NYC Boroughs </h4> 
-      <h3><b><%= @boroughs.count %></b> </h3>
+      
+      <u> <h4>  Boroughs </h4> </u>
+     
         
 
    <% @boroughs.each do |borough| %>
-            <div class="p-3 mb-4 bg-info text-white">
-                 <u>  Name </u>
-                   <div> <%= borough.name %> </div>
+            <div class="p-5 mb-4 bg-info text-white bubble text-center ">
+               <h3> <div> <%= borough.name %> </div></h3>
+                  
                  <br>
                   
                  
