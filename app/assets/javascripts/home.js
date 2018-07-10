@@ -12,11 +12,12 @@ $(document).ready(function(){
 
 
 
- $("p").hover(function(){
+ $("h1").hover(function(){
         $(this).css("font-family: ", "Tengwarc");
         }, function(){
         $(this).css("font-family: ", "Tengwarc");
     });
+
 
 
 

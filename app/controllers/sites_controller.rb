@@ -28,6 +28,7 @@ class SitesController < ApplicationController
 		@boroughs = Borough.all
 	    site = Site.find(params[:id])
 	    site.update(site_params)
+	    flash[:notice] = "Success! Site was Updated"
 	    redirect_to sites_path	
 	end
 	def destroy
