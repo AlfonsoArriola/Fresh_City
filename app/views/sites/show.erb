@@ -1,4 +1,6 @@
-<h2> Site details</h2>
+<div class="row p-4">
+	<div class="col-lg-6 col-sm-12 pl-6">
+		<h2> Site details</h2>
 
 <div>
 	Name: 
@@ -7,7 +9,7 @@
 </div>
 <div>
 	Last Updated: 
-	<%= @site.updated_at %>
+	<%= @site.updated_at.strftime("%B %-d, %Y")%>
 
 </div>
 <div>
@@ -75,17 +77,41 @@
 	<%= @site.shower_shoe %>
 
 </div>
+		
+	</div>
+	<div class="col-lg-6 col-sm-12">
+
+			<div class="row">
+				<div class="col my-4">
+						Things to note: 
+	                 <%= @site.note %>
+				</div>
+             </div>
+             <div class="row">
+				<div class="col my-4">
+					<%= image_tag "http://maps.google.com/maps/api/staticmap?size=500x400&sensor=false&zoom=14&markers=#{@site.latitude}%2C#{@site.longitude}&key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko" %>
+				</div>
+             </div>
+		
+	
 
 
-<%= image_tag "http://maps.google.com/maps/api/staticmap?size=500x400&sensor=false&zoom=14&markers=#{@site.latitude}%2C#{@site.longitude}&key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko" %>
-
-
-
-<div>
-	Things to note: 
-	<%= @site.note %>
-
+	</div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,26 +1,40 @@
-<h2> Boroughs</h2>
 
-<h4>
-	<!--  if current_admin  -->
-  	   <%= link_to t('site_home.add_new_site') , new_borough_path %>
- <!--  	end  -->
-</h4>
+<div class="row">
+  <div class="col-lg-5 col-sm-12 p-2">
+   <h2> Boroughs</h2>
 
-<h4> List Of NYC Boroughs </h4>
-
-<% @boroughs.each do |borough| %>
-<div class="p-3 mb-4 bg-info text-white">
+        <h4>
+          <!--  if current_admin  -->
+               <%= link_to t('site_home.add_new_site') , new_borough_path %>
+         <!--   end  -->
+        </h4>
   
+  </div>
+  <div class="col-lg-7 col-sm-12 p-4">
+      <h4> List Of NYC Boroughs </h4> 
+      <h3><b><%= @boroughs.count %></b> </h3>
+        
 
-     <u>  Name </u>
-       <div> <%= borough.name %> </div>
-     <br>
-      
-     
-     <%= link_to 'Full Info', borough_path(borough), 'data-disable-with': "Hold, please..." %>
-	
-	<%= link_to 'Edit', edit_borough_path(borough), 'data-disable-with': "Transferring now..." %>
+   <% @boroughs.each do |borough| %>
+            <div class="p-3 mb-4 bg-info text-white">
+                 <u>  Name </u>
+                   <div> <%= borough.name %> </div>
+                 <br>
+                  
+                 
+                 <%= link_to 'Full Info', borough_path(borough), 'data-disable-with': "Hold, please..." %>|
+              
+              <%= link_to 'Edit', edit_borough_path(borough), 'data-disable-with': "Transferring now..." %>|
 
-    <%= link_to 'Remove', borough_path(borough), method: :delete, data: { confirm: 'Are you sure?' } %>
+                <%= link_to 'Remove', borough_path(borough), method: :delete, data: { confirm: 'Are you sure?' } %>
+            </div>
+   <% end %>
+    
+  </div>
 </div>
-	<% end %>
+
+
+
+
+
+
