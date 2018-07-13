@@ -36,9 +36,10 @@
 
 									<% else %>
 
-
+                                              	<%= @m_free_sites.count %>
 										   	<% @m_free_sites.each do |m_free_site| %>
-												<div class="p-3 mb-4 bg-info text-white">
+
+												<div class="p-3 mb-4 bg-info bubble2 text-center">
 												     <u>  Name </u>
 												       <div> <%= m_free_site.name %> </div>
 												     <br>
@@ -62,6 +63,7 @@
 			   	 	     	<div class="col">
 			   	 	     		<h4> <%= t('generic.cheap_list_title') %> </h4>
                          	    <% if @m_cheap_sites.empty? %>
+
 											     <div class="row">
 													<div class="col">
 														<p class="text-center">
@@ -70,9 +72,10 @@
 													</div>
 											     </div>
 									<% else %>
-
+                                            <%= @m_cheap_sites.count %>
 										   <% @m_cheap_sites.each do |m_cheap_site| %>
-												<div class="p-3 mb-4 bg-info text-white">			  
+										   
+												<div class="p-3 mb-4 bg-info  bubble2 text-center">			  
 									     		     <u>  Name </u>
 												       <div> <%= m_cheap_site.name %> </div>
 												     <br>
