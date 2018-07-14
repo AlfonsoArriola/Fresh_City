@@ -35,7 +35,9 @@
 
 
 										   	<% @bx_free_sites.each do |bx_free_site| %>
+
 												<div class="p-3 mb-4 bg-info text-center bubble2">
+
 												     <u>  Name </u>
 												       <div> <%= bx_free_site.name %> </div>
 												     <br>
@@ -80,7 +82,7 @@
 												       <div> <%= bx_cheap_site.cost %> </div>
 												     <br>
 												     <u>  Full Info </u>
-												       <div> <%= link_to 'Click Here', the_bronx_path(bx_free_site) %></div>
+												       <div> <%= link_to 'Click Here', the_bronx_path(bx_cheap_site) %></div>
 												     <br>
 
 												     
