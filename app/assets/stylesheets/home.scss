@@ -21,14 +21,8 @@ h1 {
   font-family: 'Poiret One', cursive;
 }
 
-a{
-	color:green;
-	text-shadow: 2px 2px white;
-}
-
 .mini_blurbs{
 	font-size: 2em;
-	color:blue;
 }
 
 .the_boroughs{
@@ -49,6 +43,10 @@ a{
 	border-radius: 50%;
 }
 
+.borough a{
+	color: #f94949;
+    text-shadow: none;
+}
 
 .bx_select{
 	background-image: url(image-path('soap_bars.jpeg'));	
