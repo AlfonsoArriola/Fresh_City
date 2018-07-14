@@ -21,18 +21,38 @@
 	font-family: "ModernWakandan_Bold";
 	src: url('/assets/ModernWakandan_Bold') format("truetype");
 }
-
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
 body{
 	font-family: "Lucida Console";
+	margin: 0 auto;
 }
 
 p{
 	font-family: "ModernWakandan_Bold" , sans-serif;
 }
-
+.bg-light {
+    background-color: #50a4ea !important;
+}
 .nav-item{
 	margin: 0rem 1rem;
 }
+
+.nav-item a{
+	color: honeydew;
+    text-shadow: none;
+}
+
+.nav-item a:hover{
+	color: coral;
+    text-shadow: none;
+}
+
+
+
 
 .jumbotron_2{
 	background-image: url(image-path('white_2.jpg'));
@@ -50,6 +70,11 @@ h3{
 }
 
 a{
+  color:white;
+  text-shadow:none;
+}
+
+a:hover{
   color:coral;
   text-shadow:none;
 }
