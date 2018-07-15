@@ -8,6 +8,7 @@ class ManhattanController < ApplicationController
 	def show
      	sites = Site.all
 		m_sites = sites.where(borough_id: 3)
-		@site = m_sites.find(params[:id])		
+		@site = m_sites.find(params[:id])
+		@map = Rails.application.credentials.development[:google_places_key]			
      end
 end

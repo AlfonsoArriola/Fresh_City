@@ -37,15 +37,33 @@ $(document).ready(function(){
 }); 
 
 
+// function initialize() {
+//         let site_location = {lat: site_lat, lng: site_long}
+//         let map = new google.maps.Map(document.getElementById('map'), {
+//           center: site_location,
+//           zoom: 14
+//         });
+//         var panorama = new google.maps.StreetViewPanorama(
+//             document.getElementById('pano'), {
+//               position: site_location,
+//               pov: {
+//                 heading: 34,
+//                 pitch: 10
+//               }
+//             });
+//         map.setStreetView(panorama);
+// }
 
-$(document).ready(function(){
 
 
-    $(".bk_select").hover(function(){
-        $(this).css("background-image", "url(image-path('bx_flag2.png'))");
-        }, function(){
-        $(this).css("background-image", "url(image-path('bx_flag2.png'))");
-    });
+// $(document).ready(function(){
 
 
-});
+//     $(".bk_select").hover(function(){
+//         $(this).css("background-image", "url(image-path('bx_flag2.png'))");
+//         }, function(){
+//         $(this).css("background-image", "url(image-path('bx_flag2.png'))");
+//     });
+
+
+// });
