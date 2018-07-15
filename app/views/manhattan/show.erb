@@ -88,8 +88,21 @@
 				</div>
              </div>
              <div class="row">
+
 				<div class="col my-4">
+                    <iframe width="300" height="300" frameborder="0" style="border:0"
+						 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko&q=site.address"
+						 allowfullscreen>
+						</iframe>
+						<%= @map %>
+
 					<%= image_tag "http://maps.google.com/maps/api/staticmap?size=500x400&sensor=false&zoom=14&markers=#{@site.latitude}%2C#{@site.longitude}&key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko" %>
+
+					<iframe width="300" height="300" frameborder="0" style="border:0"
+						 src="https://www.google.com/maps/embed/v1/place?key=@map&q=site.address"
+						 allowfullscreen>
+						</iframe>
+
 				</div>
              </div>
 		

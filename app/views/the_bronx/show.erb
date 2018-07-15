@@ -89,20 +89,37 @@
              </div>
              <div class="row">
 				<div class="col my-4">
-					 <%= @map %>
-					<%= image_tag "http://maps.google.com/maps/api/staticmap?size=500x400&sensor=false&zoom=14&markers=#{@site.latitude}%2C#{@site.longitude}&key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko" %>
-                                            
-
-					<iframe width="300" height="300" frameborder="0" style="border:0"
-						 src="https://www.google.com/maps/embed/v1/place?key=@map=@site.address"
-						 allowfullscreen>
-						</iframe>
+					  <div id="map"></div>
+                      <div id="pano"></div>
+					
 						
 				</div>
 
              </div>
 		
 	
+	   <script>
+	   	 function initialize() {
+        let site_location = {lat: @site.latitude, lng: @site.longitude}
+        let map = new google.maps.Map(document.getElementById('map'), {
+          center: site_location,
+          zoom: 14
+        });
+        var panorama = new google.maps.StreetViewPanorama(
+            document.getElementById('pano'), {
+              position: site_location,
+              pov: {
+                heading: 34,
+                pitch: 10
+              }
+            });
+        map.setStreetView(panorama);
+}         
+	   </script>
+	   <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko&callback=initialize">
+    </script>
+
 
 
 	</div>
