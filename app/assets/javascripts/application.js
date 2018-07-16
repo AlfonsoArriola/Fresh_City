@@ -16,16 +16,28 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
+(function() {
 
-// $(document).ready(function(){
-//    setTimeout(function(){
-//      $('#notice_wrapper').fadeOut('slow', function(){
-//          $(this).remove();
-//      });
-//    }, 4500);
-// });
+    let language_select = $(".language_select");
+    let langIndex = -1;
+    
+    function showNextLang() {
+        ++langIndex;
+        language_select.eq(langIndex % language_select.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextLang);
+    }
+    
+    showNextLang();
+    
+})();
 
+// ____________jQuery starts  _________
 $(document).ready(function(){
+// __________________________________
+
+
    $('#notice_wrapper').hide();
 	$('#notice_wrapper').fadeIn();
   setTimeout(function(){
@@ -34,36 +46,31 @@ $(document).ready(function(){
     })
   }, 4500);
 
+
+
+
+
+(function() {
+
+    let language_select = $(".language_select");
+    let langIndex = -1;
+    
+    function showNextLang() {
+        ++langIndex;
+        language_select.eq(langIndex % language_select.length)
+            .fadeIn(2000)
+            .delay(2000)
+            .fadeOut(2000, showNextLang);
+    }
+    
+    showNextLang();
+    
+})();
+
+
+  
+
+// ________  JQuery ends _________________________
 }); 
 
 
-// function initialize() {
-//         let site_location = {lat: site_lat, lng: site_long}
-//         let map = new google.maps.Map(document.getElementById('map'), {
-//           center: site_location,
-//           zoom: 14
-//         });
-//         var panorama = new google.maps.StreetViewPanorama(
-//             document.getElementById('pano'), {
-//               position: site_location,
-//               pov: {
-//                 heading: 34,
-//                 pitch: 10
-//               }
-//             });
-//         map.setStreetView(panorama);
-// }
-
-
-
-// $(document).ready(function(){
-
-
-//     $(".bk_select").hover(function(){
-//         $(this).css("background-image", "url(image-path('bx_flag2.png'))");
-//         }, function(){
-//         $(this).css("background-image", "url(image-path('bx_flag2.png'))");
-//     });
-
-
-// });

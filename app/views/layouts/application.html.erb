@@ -23,11 +23,17 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+      <li class="nav-item active lang_holster">
+         <p class="language_select"> Language Select:</p>  
+         <p class="language_select"> Seleccione el idioma:</p>
+           <p class="language_select"> Выберите язык:</p>
+             <p class="language_select"> 选择语言：</p>
+               <p class="language_select"> اختار اللغة: </p>
+      </li>
       <li class="nav-item active">
         <a href=""> 
           <%= link_to t('title_and_nav.english'), class: "nav-link", locale: "en" %>
-        </a>
-        
+        </a>      
       </li>
       <li class="nav-item active">
          <%= link_to t('title_and_nav.spanish'), class: "nav-link", locale: "es" %>       
