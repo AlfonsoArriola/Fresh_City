@@ -1,24 +1,14 @@
-# README
+# Fresh City 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A ruby on rails project that allows admin to C.R.U.D. locations within the 5 boroughs of NYC that have free and/or cheap showers.
 
-Things you may want to cover:
+features:
 
-* Ruby version
+* Ruby 2.5.1p57
 
-* System dependencies
+* i18n gem
 
-* Configuration
+* Devise gem
 
-* Database creation
+* Bootstrap
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
