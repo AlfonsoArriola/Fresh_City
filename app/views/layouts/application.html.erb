@@ -62,7 +62,8 @@
    <% end %>  
   
 </div>
-
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
     <%= yield %>
 
@@ -73,6 +74,19 @@
        <div class="container">
         <div class="row">
             <div class="col-md-3">
+                <ul>
+                   <% if admin_signed_in? %>
+                   <li>
+                      <%= link_to "Sign Out", destroy_admin_session_path, method: :delete %>
+                   </li>
+                     <% else %>
+                     <li>
+                        <%= link_to "Sign In", new_admin_session_path %>
+                        <% end %>
+                     </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
                 <%= link_to 'Sites' , sites_path %>
             </div>
             <div class="col-md-3">
@@ -81,9 +95,6 @@
             <div class="col-md-3">
                 <%= link_to 'Trains' , trains_path %>
                 
-            </div>
-            <div class="col-md-3">
-       
             </div>
         </div>
     </div>
