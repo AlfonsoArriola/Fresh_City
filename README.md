@@ -12,3 +12,4 @@ features:
 
 * Bootstrap
 
+![alt text](https://raw.githubusercontent.com/AlfonsoArriola/read_me_images/master/freshcity.jpg )
