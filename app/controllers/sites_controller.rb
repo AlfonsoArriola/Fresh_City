@@ -28,6 +28,7 @@ class SitesController < ApplicationController
 		@boroughs = Borough.all
 	    site = Site.find(params[:id])
 	    site.update(site_params)
+
 	    flash[:notice] = "Success! Site was Updated"
 	    redirect_to sites_path	
 	end
@@ -39,7 +40,7 @@ class SitesController < ApplicationController
 	private
 
 	def site_params
-		params.require(:site).permit(:name, :address, :cost, :phone, :location_type, :gender, :age_range, :days_of_the_week_and_hours_of_operation, :towel, :shower_shoe, :soap, :feminine_hygiene, :note, :website, :borough_id)
+		params.require(:site).permit(:image, :name, :address, :cost, :phone, :location_type, :gender, :age_range, :days_of_the_week_and_hours_of_operation, :towel, :shower_shoe, :soap, :feminine_hygiene, :note, :website, :borough_id)
 	end
  
 end

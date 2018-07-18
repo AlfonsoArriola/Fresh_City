@@ -62,7 +62,8 @@
    <% end %>  
   
 </div>
-
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
     <%= yield %>
 
@@ -70,23 +71,35 @@
     
   </div>
   <div class="footer p-2">
-       <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <%= link_to 'Sites' , sites_path %>
-            </div>
-            <div class="col-md-3">
-               <%= link_to 'Boroughs' , boroughs_path %>
-            </div>
-            <div class="col-md-3">
-                <%= link_to 'Trains' , trains_path %>
-                
-            </div>
-            <div class="col-md-3">
-       
-            </div>
-        </div>
-    </div>
+     
+        
+           <% if admin_signed_in? %>
+        <div class="container">
+           <div class="row">
+          
+
+                          <div class="col-md-3">
+                              <%= link_to "Sign Out", destroy_admin_session_path, method: :delete %>
+                          </div>
+                          <div class="col-md-3">
+                              <%= link_to 'Sites' , sites_path %>
+                          </div>
+                          <div class="col-md-3">
+                             <%= link_to 'Boroughs' , boroughs_path %>
+                          </div>
+                          <div class="col-md-3">
+                              <%= link_to 'Trains' , trains_path %>
+                              
+                          </div>
+            
+              </div>
+            </div>     
+          <% else %>
+                  
+           
+            <% end %>
+        
+    
   </div>
 
 

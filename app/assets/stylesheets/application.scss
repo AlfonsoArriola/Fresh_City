@@ -79,7 +79,7 @@ h3{
 
 a{
   color:white;
-  text-shadow:none;
+  text-shadow: 2px 2px steelblue;
 }
 
 a:hover{
@@ -115,6 +115,14 @@ a:hover{
 	border-radius: 50%;
 	height:22rem;
 	width:22rem;
+}
+
+
+
+.site_profile_image img{
+	height: 22rem;
+    width: 22rem;  
+    object-fit: contain;
 }
 
 .bottom_space{
