@@ -1,1 +1,44 @@
-<h2> Hey Ya Prospect!!!!</h2>
+<div class="row">
+  <div class="col-lg-5 col-sm-12 p-2">
+
+      <h2> <%= t('title_and_nav.title') %></h2>
+
+
+<h4>
+  <!--  if current_admin  -->
+       <%= link_to t('site_home.add_new_site') , new_prospect_site_path %>
+ <!--   end  -->
+</h4>
+
+    
+  </div>
+  <div class="col-lg-7 col-sm-12 p-4">
+      <h4> Number Of Prospective Sites:</h4>  
+      <h3><b><%= @prospects.count %></b> </h3>
+        
+
+
+          <% @prospects.each do |prospect| %>
+          <div class="p-5 mb-4 bg-info text-white bubble2 text-center">
+            
+
+               <u>  Name </u>
+                 <div> <%= prospect.name %> </div>
+               <br>
+                 <u>  Address </u>
+                 <div> <%= prospect.location %> </div>
+               <br>
+                <u>  Entry Date </u>
+                 <div> <%= prospect.created_at.strftime("%B %-d, %Y") %> </div>
+               <br>
+               
+               <%= link_to 'Full Info', prospect_site_path(prospect), 'data-disable-with': "Hold, please..." %> |
+            
+            <%= link_to 'Edit', edit_prospect_site_path(prospect), 'data-disable-with': "Transferring now..." %>
+               |
+              <%= link_to 'Remove', prospect_site_path(prospect), method: :delete, data: { confirm: 'Are you sure?' } %>
+          </div>
+            <% end %>
+    
+  </div>
+</div>

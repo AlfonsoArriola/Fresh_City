@@ -4,6 +4,13 @@ class ProspectSitesController < ApplicationController
 	end
 	def create
 		@prospect = ProspectSite.create(prospect_params)
+		if @prospect.valid?
+		 	flash[:notice] = "Success! We'll check this location out soon."
+		     redirect_to root_path
+		else
+		 	flash[:notice] = "Invalid Input"
+		 	render :new
+		 end
 	end
 	def new
 		@prospect = ProspectSite.new
@@ -27,6 +34,6 @@ class ProspectSitesController < ApplicationController
 	private
 
 	def prospect_params
-		params.require(:prospect).permit(:name, :location, :e_mail, :phone, :comment)
+		params.require(:prospect_site).permit(:name, :location, :e_mail, :phone, :comment)
 	end
 end

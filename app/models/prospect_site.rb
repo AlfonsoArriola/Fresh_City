@@ -1,3 +1,3 @@
 class ProspectSite < ApplicationRecord
-	validates :name, :comment, :presence => true, :uniqueness => true
+	validates :name, :location, :presence => true
 end
