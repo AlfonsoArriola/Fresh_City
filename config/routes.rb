@@ -10,8 +10,10 @@ Rails.application.routes.draw do
      resources :manhattan
      resources :staten_island
      resources :brooklyn
+     resources :about
 
      resources :prospect_sites
+
 
   
      resources :sites do
