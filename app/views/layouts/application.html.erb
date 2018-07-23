@@ -8,7 +8,10 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <%= favicon_link_tag asset_path('bubbles.png'), :rel => 'icon', :type =>  'image/png' %>
- 
+
+    <meta name="keywords" content=" FreshCity, Fresh-City, Free-Showers, Free-Showers-NYC, Free-Showers-Bronx, Free-Showers-Queens, Free-Showers-Manhattan, Free-Showers-Staten-Island, Free-Showers-Brooklyn, ShowerPower, Shower-Power, Cheap-Showers, Cheap-Showers-NYC, Cheap-Showers-Bronx, Cheap-Showers-Queens, Cheap-Showers-Manhattan, Cheap-Showers-Staten-Island, Cheap-Showers-Brooklyn ">
+    <meta name="description" content="A listing of Free & Cheap showers within New York City">
+    <meta name="author" content="Alfonso Arriola">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One|Racing+Sans+One" rel="stylesheet">
   </head>
 
@@ -26,14 +29,12 @@
       <li class="nav-item active lang_holster">
          <p class="language_select"> Language Select:</p>  
          <p class="language_select"> Seleccione el idioma:</p>
-           <p class="language_select"> Выберите язык:</p>
-             <p class="language_select"> 选择语言：</p>
-               <p class="language_select"> اختار اللغة: </p>
+         <p class="language_select"> Выберите язык:</p>
+         <p class="language_select"> 选择语言：</p>
+         <p class="language_select"> اختار اللغة: </p>
       </li>
-      <li class="nav-item active">
-        <a href=""> 
-          <%= link_to t('title_and_nav.english'), class: "nav-link", locale: "en" %>
-        </a>      
+      <li class="nav-item active">    
+        <%= link_to t('title_and_nav.english'), class: "nav-link", locale: "en" %>     
       </li>
       <li class="nav-item active">
          <%= link_to t('title_and_nav.spanish'), class: "nav-link", locale: "es" %>       
@@ -52,16 +53,15 @@
 </nav>
    <div class="container-fluid">
     
-  
 <div id="notice_wrapper">
   <% if !flash[:notice].blank? %>
-   <div class="notice">
+       <div class="notice">
    <%= flash[:notice] %>
- 
-   </div>
-   <% end %>  
+       </div>
+  <% end %>  
   
 </div>
+
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 
@@ -70,36 +70,38 @@
   <div class="bottom_space">
     
   </div>
+
   <div class="footer p-2">
-     
-        
-           <% if admin_signed_in? %>
+           
+      <% if admin_signed_in? %>
         <div class="container">
            <div class="row">
           
-
-                          <div class="col-md-3">
+                          <div class="col-md-2">
                               <%= link_to "Sign Out", destroy_admin_session_path, method: :delete %>
                           </div>
-                          <div class="col-md-3">
+                          <div class="col-md-2">
                               <%= link_to 'Sites' , sites_path %>
                           </div>
-                          <div class="col-md-3">
+                          <div class="col-md-2">
+                              <%= link_to 'Prospective Sites' , prospect_sites_path %>
+                          </div>
+                          <div class="col-md-2">
                              <%= link_to 'Boroughs' , boroughs_path %>
                           </div>
-                          <div class="col-md-3">
-                              <%= link_to 'Trains' , trains_path %>
-                              
+                          <div class="col-md-2">
+                              <%= link_to 'Trains' , trains_path %>                
+                          </div>
+                          <div class="col-md-2">
+                                           
                           </div>
             
               </div>
             </div>     
-          <% else %>
-                  
+      <% else %>
+                            
+      <% end %>
            
-            <% end %>
-        
-    
   </div>
 
 

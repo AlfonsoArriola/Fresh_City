@@ -1,11 +1,19 @@
 <%= form_for  @site do |f| %>
+ <% if @site.errors.any? %>
+   <h2> Errors:</h2>
+     <ul>
+     	   <% @site.errors.full_messages.each do |message| %>
+     	<li> <%= message %></li>
+     	<% end %>
+     </ul>
+ <% end %>
 		  <div>
 		 	 <%= f.label :name %>
 		 	 <%= f.text_field :name %>
 		  </div>
 		  <div>
-		 	 <%= f.label :cost %>
-		 	 <%= f.select(:cost, ["Free", "Membership Required",
+		 	 <%= f.label :cost %> <br>
+		 	 <%= f.select(:cost, ["Please, make a selection","Free", "Membership Required",
 		         "See Notes"]) %>
 		  </div>
 		  <div>
@@ -21,12 +29,12 @@
 		 	 <%= f.text_field :location_type %>
 		  </div>
 		  <div>
-		 	 <%= f.label :borough_id %>
+		 	 <%= f.label :borough_id %> <br>
 		 	 <%= f.select(:borough_id, @boroughs.map {|b| [b.name, b.id]}) %>
 		  </div>
 		  <div>
 		 	 <%= f.label :gender %>
-		 	 <%= f.select(:gender, [  "Women" ,
+		 	 <%= f.select(:gender, ["Please, make a selection",  "Women" ,
 		          "Men", "Any", "See Notes"]) %>
 		 </div>
 		 <div>
@@ -39,27 +47,27 @@
 		  </div>
 		   <div>
 		 	 <%= f.label :towel  %>
-		 	 <%= f.select(:towel, [  "Yes, and you can keep it." ,
+		 	 <%= f.select(:towel, [ "Please, make a selection", "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
 		  <div>
 		 	 <%= f.label :shower_shoe %>
-		 	 <%= f.select(:shower_shoe,  [  "Yes, and you can keep it." ,
+		 	 <%= f.select(:shower_shoe,  [ "Please, make a selection", "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
 		  <div>
 		 	 <%= f.label :soap %>
-		 	 <%= f.select(:soap,  [  "Yes, and you can keep it." ,
+		 	 <%= f.select(:soap,  [ "Please, make a selection", "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
 		  <div>
 		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %>
-		 	 <%= f.select(:feminine_hygiene,  ["Yes" ,"No", "See Notes"]) %>
+		 	 <%= f.select(:feminine_hygiene,  ["Please, make a selection","Yes" ,"No", "See Notes"]) %>
 		  </div>
 		 
 		  
 		  <div>
-		 	 <%= f.label :website %>
+		 	 <%= f.label :website %> <br>
 		 	 <%= f.text_field :website %>
 		  </div>
 

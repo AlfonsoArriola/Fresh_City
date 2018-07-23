@@ -21,15 +21,32 @@
 
 		   <div class="row the_boroughs m-5">
 			   	 <div class="col-lg-7 col-sm-0 about p-5">
-			   	 	<p>
-			   	 		<%= t('about.welcome') %>
-			   	 		     <br> <br>
-			   	 		<%= t('about.p_1') %>
-			   	 		     <br> <br>
-			   	<%= t('about.p_2') %> <a href="http://showerpowernyc.org/">Shower Power</a>. <%= t('about.p_3') %>
-			   	 		     <br> <br>
-			   	 		<%= t('about.p_4') %>     		   	 		
-			   	 	</p>
+			   	 	<div class="row">
+			   	 		<div class="col">
+			   	 				<p>
+							   	 		<%= t('about.welcome') %>
+							   	 		     <br> <br>
+							   	 		<%= t('about.p_1') %>
+							   	 		     <br> <br>
+							   	<%= t('about.p_2') %> <a href="http://showerpowernyc.org/">Shower Power</a>. <%= t('about.p_3') %>
+							   	 		     <br> <br>
+							   	 		<%= t('about.p_4') %>     		   	 		
+							   	 	</p>
+			   	 		</div>
+			   	 	</div>
+			   	 	<div class="row">
+			   	 		<div class="col border border-success">
+			   	 			<p> About</p>
+			   	 			<%= link_to 'Learn More About Us', about_index_path %>
+			   	 		</div>
+			   	 	</div>
+			   	 	<div class="row">
+			   	 		<div class="col border border-primary">
+			   	 			<p> Know a location that not listed already? </p>
+			   	 			<%= link_to 'Prospective Site', new_prospect_site_path %>
+			   	 		</div>
+			   	 	</div>
+			   	 
 			   	 </div>
 
 			   	 <div class="col-lg-5 col-sm-12 pre-scrollable">

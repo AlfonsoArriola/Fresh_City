@@ -9,7 +9,7 @@ class TheBronxController < ApplicationController
      	sites = Site.all
 		bx_sites = sites.where(borough_id: 1)
 		@site = bx_sites.find(params[:id])	
-		@map = Rails.application.credentials.development[:google_places_key]	
+		@map = Rails.application.credentials.development[:google_places_key]
 	
 
      end

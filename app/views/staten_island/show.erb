@@ -2,99 +2,92 @@
 	<div class="col-lg-6 col-sm-12 pl-6">
 		<h2> Site details</h2>
 
-<div>
-	Name: 
-	<%= @site.name %>
-
-</div>
-<div>
-	Last Updated: 
-	<%= @site.updated_at.strftime("%B %-d, %Y")%>
-
-</div>
-<div>
-	Cost:
-	 <%= @site.cost%>
-
-</div>
-<div>
-	Address:
-	 <%= @site.address %>
-
-</div>
-<div>
-	Borough:
-	 <%= @site.borough.name%>
-
-</div>
-
-<div>
-	Phone Number:
-	 <%= @site.phone %>
-
-</div>
-<div>
-	Location Type:
-	 <%= @site.location_type%>
-
-</div>
-<div>
-	Gender:
-	 <%= @site.gender %>
-
-</div>
-<div>
-	Age Ranges: 
-	<%= @site.age_range %>
-
-</div>
-
-<div>
-	Days of the week & hours of operation:
-	 <%= @site.days_of_the_week_and_hours_of_operation %>
-
-</div>
-
-
-
-<div>
-	Towel Access?: 
-	<%= @site.towel %>
-
-</div>
-<div>
-	Soap Access?: 
-	<%= @site.soap %>
-
-</div>
-<div>
-	Feminine hygiene access?: 
-	<%= @site.feminine_hygiene %>
-
-</div>
-<div>
-	Shower shoes?: 
-	<%= @site.shower_shoe %>
-
-</div>
+			<div>
+				Name: 
+				<%= @site.name %>
+			</div>
+			<div>
+				Last Updated: 
+				<%= @site.updated_at.strftime("%B %-d, %Y")%>
+			</div>
+			<div>
+				Cost:
+				 <%= @site.cost%>
+			</div>
+			<div>
+				Address:
+				 <%= @site.address %>
+			</div>
+			<div>
+				Borough:
+				 <%= @site.borough.name%>
+			</div>
+			<div>
+				Phone Number:
+				 <%= @site.phone %>
+			</div>
+			<div>
+				Location Type:
+				 <%= @site.location_type%>
+			</div>
+			<div>
+				Gender:
+				 <%= @site.gender %>
+			</div>
+			<div>
+				Age Ranges: 
+				<%= @site.age_range %>
+			</div>
+			<div>
+				Days of the week & hours of operation:
+				 <%= @site.days_of_the_week_and_hours_of_operation %>
+			</div>
+			<div>
+				Towel Access?: 
+				<%= @site.towel %>
+			</div>
+			<div>
+				Soap Access?: 
+				<%= @site.soap %>
+			</div>
+			<div>
+				Feminine hygiene access?: 
+				<%= @site.feminine_hygiene %>
+			</div>
+			<div>
+				Shower shoes?: 
+				<%= @site.shower_shoe %>
+			</div>
+			    <br>
+			<div>
+				Things to note: 
+			    <%= @site.note %>
+			</div>
 		
 	</div>
 	<div class="col-lg-6 col-sm-12">
-
-			<div class="row">
-				<div class="col my-4">
-						Things to note: 
-	                 <%= @site.note %>
-				</div>
-             </div>
+      <div class="row">
+		    	<div class="col site_profile_image">
+		    		<% if @site.image.attached? %>
+                        <div class="row-6 my-3">
+                          <%= image_tag @site.image %>
+                        </div>
+                                  <% else %>
+                        <div class="row-6 my-3">
+                          <%= image_tag "one_orange_towel.jpg" %>
+              
+                        </div>
+                <% end %>      
+		    		
+		    	</div>
+		    </div>
              <div class="row">
 				<div class="col my-4">
-					<%= image_tag "http://maps.google.com/maps/api/staticmap?size=500x400&sensor=false&zoom=14&markers=#{@site.latitude}%2C#{@site.longitude}&key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko" %>
+					<iframe width="500" height="500" frameborder="0" style="border:0"
+						 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko&q=site.address&zoom=14"
+						 allowfullscreen>
+					</iframe>
 				</div>
              </div>
-		
-	
-
-
 	</div>
 </div>

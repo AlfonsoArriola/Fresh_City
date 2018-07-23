@@ -26,11 +26,16 @@ class SitesController < ApplicationController
 	end
 	def update
 		@boroughs = Borough.all
-	    site = Site.find(params[:id])
-	    site.update(site_params)
+	    @site = Site.find(params[:id])
 
-	    flash[:notice] = "Success! Site was Updated"
-	    redirect_to sites_path	
+	    @site.update(site_params)
+        if @site.valid?
+		    flash[:notice] = "Success! Site was Updated"
+		    redirect_to sites_path
+		else
+		 	flash[:notice] = "Invalid Input"
+		 	render :new
+		end	
 	end
 	def destroy
 		Site.destroy(params[:id])
