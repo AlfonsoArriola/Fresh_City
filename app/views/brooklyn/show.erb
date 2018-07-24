@@ -84,7 +84,7 @@
              <div class="row">
 				<div class="col my-4">
 					<iframe width="500" height="500" frameborder="0" style="border:0"
-						 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyByqleluol3--6YFUvAH6WygWWT_7bvRko&q=site.address&zoom=14"
+						 src="https://www.google.com/maps/embed/v1/place?key=<%=ENV['GOOGLE_MAPS_KEY']%>&q=<%= @site.address %>&zoom=14&language=<%= t('generic.map') %>"
 						 allowfullscreen>
 					</iframe>
 				</div>

@@ -1,9 +1,10 @@
 class Site < ApplicationRecord
 	geocoded_by :address
+	after_validation :geocode
 
 	BASE__ANSWER = ["Please, make a selection"]
 
-	after_validation :geocode
+	
 	has_one_attached :image
 	validates :address, :presence => true, :uniqueness => true
 	validates :name,:location_type,:age_range,:days_of_the_week_and_hours_of_operation, :presence => true

@@ -13,6 +13,7 @@ zh-CN:
     free_list_title: '免费淋浴。'
     free_list_none: "此时没有列出淋浴，请稍后再查看。"
     cheap_list_title: '廉价淋浴。'
+    map: 'zh-CN'
   about:
     welcome: "欢迎"
     p_1: "目前跟踪免费和廉价的淋浴
