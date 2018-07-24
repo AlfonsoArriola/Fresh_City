@@ -13,6 +13,7 @@ es:
     free_list_title: 'Duchas gratuitas.'
     free_list_none: "Ninguno en este momento, por favor revise más tarde."
     cheap_list_title: 'Duchas baratas.'
+    map: 'es'
   about:
     welcome: "¡Bienvenido!"
     p_1: " Fresh City actualmente realiza un seguimiento de las duchas gratuitas y baratas

@@ -44,6 +44,7 @@ en:
     free_list_title: 'Free showers.'
     free_list_none: "No showers listed at this time, please check again later."
     cheap_list_title: 'Cheap.'
+    map: 'en'
   about:
     welcome: "Welcome!"
     p_1: " Fresh City currently keeps track of the free and cheap showers
