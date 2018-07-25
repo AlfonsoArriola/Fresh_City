@@ -48,8 +48,34 @@
 			   	 	</div>
 			   	 
 			   	 </div>
+			   	     <div class="col-lg-5 col-sm-12 listing">
+			   	     	   <div class="row mini_blurbs">
+								<div class="col text-center">
+									<p> <%= t('site_home.showers') %></p>
+									<p class=" text-center"> <%= t('site_home.find_by_boro') %> </p>
+								</div>
+							</div>
+			   	     	<ul>
+			   	     		<li class="col-12 borough bx_select my-2">
+			   	     		    <%= link_to t('site_home.bronx') , the_bronx_index_path %> 	
+			   	     		</li>
+			   	     		<li class="col-12 borough q_select my-2">
+			   	     			<%= link_to t('site_home.queens') , queens_path %> 
+			   	     		</li>
+			   	     		<li class="col-12 borough m_select my-2">
+			   	     			<%= link_to t('site_home.manhattan') , manhattan_index_path %> 
+			   	     		</li>
+			   	     		<li class="col-12 borough si_select my-2">
+			   	     			<%= link_to t('site_home.staten_island') , staten_island_index_path %> 
+			   	     		</li>
+			   	     		<li class="col-12 borough bk_select my-2">
+			   	     			<%= link_to t('site_home.brooklyn') , brooklyn_index_path %> 
+			   	     		</li>
+			   	     	</ul>
+			   	     	
+			   	     </div>
 
-			   	 <div class="col-lg-5 col-sm-12 pre-scrollable">
+		<!-- 	   	 <div class="col-lg-5 col-sm-12 pre-scrollable">
 			   	 	        <div class="row mini_blurbs">
 								<div class="col text-center">
 									<p> <%= t('site_home.showers') %></p>
@@ -86,7 +112,7 @@
 										
 					   	 		</div>
 						   	</div> 	 	
-		   	     </div>
+		   	     </div> -->
 		   </div>
 
 	</div>
