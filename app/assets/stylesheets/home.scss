@@ -21,6 +21,33 @@ h1 {
   font-family: 'Poiret One', cursive;
 }
 
+.listing ul{
+	list-style-type: none;
+	perspective: 1000px;
+
+}
+
+.listing li{
+	border-radius:17px;
+	z-index: -1;
+}
+
+.listing li:hover{
+	transform: rotateY(-10deg) rotateX(15deg) scale(1.03);
+	transition: transform .3s ease-in-out;
+	z-index: 2;
+	background-image: url(image-path('shower0.jpg'));
+	background-size: cover;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: 3px solid #50a4ea;
+}
+
+.listing a:hover{
+	color:rgb(7, 34, 242);
+}
+
 .mini_blurbs{
 	font-size: 2em;
 }
