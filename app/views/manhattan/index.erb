@@ -36,7 +36,7 @@
 
 									<% else %>
 
-                                              	<%= @m_free_sites.count %>
+                                             
 										   	<% @m_free_sites.each do |m_free_site| %>
 
 												<div class="p-3 mb-4 bg-info bubble2 text-center">
@@ -51,6 +51,7 @@
 												     <br>
 												       <u>  Full Info </u>
 												       <div> <%= link_to 'Click Here', manhattan_path(m_free_site) %></div>
+
 												     <br>
 
 												     
@@ -72,7 +73,7 @@
 													</div>
 											     </div>
 									<% else %>
-                                            <%= @m_cheap_sites.count %>
+                                       
 										   <% @m_cheap_sites.each do |m_cheap_site| %>
 										   
 												<div class="p-3 mb-4 bg-info  bubble2 text-center">			  
