@@ -21,98 +21,53 @@
 
 		   <div class="row the_boroughs m-5">
 			   	 <div class="col-lg-7 col-sm-0 about p-5">
-			   	 	<div class="row">
-			   	 		<div class="col">
-			   	 				<p>
-							   	 		<%= t('about.welcome') %>
-							   	 		     <br> <br>
-							   	 		<%= t('about.p_1') %>
-							   	 		     <br> <br>
-							   	<%= t('about.p_2') %> <a href="http://showerpowernyc.org/">Shower Power</a>. <%= t('about.p_3') %>
-							   	 		     <br> <br>
-							   	 		<%= t('about.p_4') %>     		   	 		
-							   	 	</p>
-			   	 		</div>
-			   	 	</div>
+			   	 	
 			   	 	<div class="row">
 			   	 		<div class="col border border-success">
-			   	 			<p> About</p>
-			   	 			<%= link_to 'Learn More About Us', about_index_path %>
+			   	 			<p> 
+                     <%= t('about.welcome') %>
+		   	 		     <br> <br>
+		   	 		<%= t('about.home_page') %>
+
+			   	 			</p>
+			   	 			<%= link_to t('about.link'), about_index_path %>
 			   	 		</div>
 			   	 	</div>
 			   	 	<div class="row">
 			   	 		<div class="col border border-primary">
-			   	 			<p> Know a location that not listed already? </p>
-			   	 			<%= link_to 'Prospective Site', new_prospect_site_path %>
+			   	 			<p> <%= t('prospects.home_page') %> </p>
+			   	 			<%= link_to t('prospects.link'), new_prospect_site_path %>
 			   	 		</div>
 			   	 	</div>
 			   	 
 			   	 </div>
-			   	     <div class="col-lg-5 col-sm-12 listing">
-			   	     	   <div class="row mini_blurbs">
-								<div class="col text-center">
-									<p> <%= t('site_home.showers') %></p>
-									<p class=" text-center"> <%= t('site_home.find_by_boro') %> </p>
-								</div>
-							</div>
-			   	     	<ul>
-			   	     		<li class="col-12 borough bx_select my-2">
-			   	     		    <%= link_to t('site_home.bronx') , the_bronx_index_path %> 	
-			   	     		</li>
-			   	     		<li class="col-12 borough q_select my-2">
-			   	     			<%= link_to t('site_home.queens') , queens_path %> 
-			   	     		</li>
-			   	     		<li class="col-12 borough m_select my-2">
-			   	     			<%= link_to t('site_home.manhattan') , manhattan_index_path %> 
-			   	     		</li>
-			   	     		<li class="col-12 borough si_select my-2">
-			   	     			<%= link_to t('site_home.staten_island') , staten_island_index_path %> 
-			   	     		</li>
-			   	     		<li class="col-12 borough bk_select my-2">
-			   	     			<%= link_to t('site_home.brooklyn') , brooklyn_index_path %> 
-			   	     		</li>
-			   	     	</ul>
-			   	     	
-			   	     </div>
+   	     <div class="col-lg-5 col-sm-12 listing">
+   	     	   <div class="row">
+					<div class="col text-center">
+						<p> <%= t('site_home.showers') %></p>
+						<p class=" text-center"> <%= t('site_home.find_by_boro') %> </p>
+					</div>
+				</div>
+   	     	<ul>
+   	     		<li class="col-12 borough bx_select my-2">
+   	     		    <%= link_to t('site_home.bronx') , the_bronx_index_path, class: "bx_select" %> 	
+   	     		</li>
+   	     		<li class="col-12 borough q_select my-2">
+   	     			<%= link_to t('site_home.queens') , queens_path, class: "q_select" %> 
+   	     		</li>
+   	     		<li class="col-12 borough m_select my-2" >
+   	     			<%= link_to t('site_home.manhattan') , manhattan_index_path, class: "m_select" %> 
+   	     		</li>
+   	     		<li class="col-12 borough si_select my-2">
+   	     			<%= link_to t('site_home.staten_island') , staten_island_index_path, class: "si_select" %> 
+   	     		</li>
+   	     		<li class="col-12 borough bk_select my-2">
+   	     			<%= link_to t('site_home.brooklyn') , brooklyn_index_path, class: "bk_select" %> 
+   	     		</li>
+   	     	</ul>	
+   	     </div>
 
-		<!-- 	   	 <div class="col-lg-5 col-sm-12 pre-scrollable">
-			   	 	        <div class="row mini_blurbs">
-								<div class="col text-center">
-									<p> <%= t('site_home.showers') %></p>
-									<p class=" text-center"> <%= t('site_home.find_by_boro') %> </p>
-								</div>
-							</div>
 
-					   	 	<div class="row">
-					   	 		<div class="col-12 borough bx_select my-2">
-					   	 			<%= link_to t('site_home.bronx') , the_bronx_index_path %> 								
-					   	 		</div>
-						   	</div>
-						   	<div class="row">
-					   	 		<div class="col-12 borough q_select my-2">
-					   	 			<%= link_to t('site_home.queens') , queens_path %> 
-										
-					   	 		</div>
-						   	</div>
-						    <div class="row">
-					   	 		<div class="col-12 borough m_select my-2">
-					   	 			<%= link_to t('site_home.manhattan') , manhattan_index_path %> 
-										
-					   	 		</div>
-						   	</div> 
-						   	<div class="row">
-					   	 		<div class="col-12 borough si_select my-2">
-					   	 			<%= link_to t('site_home.staten_island') , staten_island_index_path %> 
-										
-					   	 		</div>
-						   	</div>
-						   	<div class="row">
-					   	 		<div class="col-12 borough bk_select my-2">
-					   	 			<%= link_to t('site_home.brooklyn') , brooklyn_index_path %> 
-										
-					   	 		</div>
-						   	</div> 	 	
-		   	     </div> -->
 		   </div>
 
 	</div>

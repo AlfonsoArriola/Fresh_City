@@ -14,6 +14,16 @@
  *= require_self
  */
 
+
+form{
+	diplay:grid;
+	grid-template-columns: auto 1fr;
+}
+
+label{
+	display:contents;
+}
+
 @font-face{
 	font-family: "Tengwarc";
 	src: url('/assets/Tengwarc') format("truetype");
@@ -38,6 +48,7 @@ p{
 .lang_holster{
 	color:#FFFDD0 ;
 }
+
 .language_select{
 	display:none;
 }
@@ -54,6 +65,11 @@ p{
 	color: coral;
     text-shadow: none;
 }
+
+ul {
+  list-style-type: none;
+}
+
 
 #map, #pano {
         float: left;

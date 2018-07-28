@@ -47,11 +47,16 @@ en:
     map: 'en'
   about:
     welcome: "Welcome!"
-    p_1: " Fresh City currently keeps track of the free and cheap showers
-                         available within the 5 boroughs of New York City.  Coming soon, Fresh City will also track places that offer free haircuts, and later, free laundry"
+    home_page: " Fresh City keeps track of free and cheap showers
+                         available within the 5 boroughs of New York City."
+    link: "Learn More About The Fresh City Project."
+    
     p_2: " We would not exist without the knowledge, hard-work, & kindness of "
     p_3: " Their bold vision for a better community serves as inspiration."
     p_4: "Lastly, we are grateful for you.  Gathering all this data is a community affair.  Please, leave us contact us about other locations offering showers, issues you might have, or just to say thanks."
+  prospects:
+    home_page: "Know a location not listed?  Please, let us know."
+    link: "Click here to fill out a form."
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'
