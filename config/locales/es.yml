@@ -16,11 +16,15 @@ es:
     map: 'es'
   about:
     welcome: "¡Bienvenido!"
-    p_1: " Fresh City actualmente realiza un seguimiento de las duchas gratuitas y baratas
-                         disponible dentro de los 5 condados de la ciudad de Nueva York. Próximamente, Fresh City también hará un seguimiento de los lugares que ofrecen cortes de cabello gratis y, más adelante, lavandería gratis."
+    home_page: "Fresh City realiza un seguimiento de duchas gratuitas y baratas
+                         disponible dentro de los 5 condados de la ciudad de Nueva York. "
+    link: "Aprenda más sobre el proyecto Fresh City."
     p_2: "No existiríamos sin el conocimiento, el trabajo duro y la amabilidad de "
     p_3: "Su visión audaz para una comunidad mejor sirve de inspiración."
     p_4: "Por último, estamos agradecidos por ti. Reunir todos estos datos es un asunto de la comunidad. Por favor, déjenos contactarnos sobre otros lugares que ofrecen duchas, problemas que pueda tener, o simplemente para agradecer."
+  prospects: 
+    home_page: "¿Conoces una ubicación que no está en la lista? Por favor déjanos saber."
+    link: "Haga clic aquí para completar un formulario."
   site_form: 
     header: 'New Site Regristration'
     name: 'Name'

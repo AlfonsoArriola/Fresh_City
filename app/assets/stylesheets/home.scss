@@ -14,16 +14,6 @@
 	overflow:hidden;
 }
 
-.bg_image{
-	background-image: url(image-path('shower0.jpg'));
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center; 
-	height: 27rem;
-	position:relative;
-	overflow:hidden;
-}
-
 h1 {
   font-size: 7em;
   color:rgb(7, 34, 242);
@@ -32,19 +22,20 @@ h1 {
 }
 
 .listing ul{
-	list-style-type: none;
 	perspective: 1000px;
-
 }
 
 .listing li{
 	border-radius:17px;
 	z-index: -1;
+	border: 1px solid red;
+	width: 13rem;
+
 }
 
 .listing li:hover{
-	transform: rotateY(-10deg) rotateX(15deg) scale(1.2);
-	transition: transform .3s ease-in-out;
+	transform: rotateY(-20deg) rotateX(10deg)scale(1.3);
+	transition: transform .1s ease-in-out;
 	z-index: 2;
 }
 
@@ -52,68 +43,44 @@ h1 {
 	color:rgb(7, 34, 242);
 }
 
-.mini_blurbs{
-	font-size: 2em;
-}
 
-.the_boroughs{
-	position:relative;
-	overflow:hidden;	
-}
 .borough{
+     font-size: 1.3em;
 }
 
-.borough img{
-}
-
-.borough a{
-	color: #f94949;
-    text-shadow: none;
-}
 
 .bx_select{
+    color: #55e08a;
 }
 
 .q_select{
-	
+	color: #e0556a;
 }
 
 .m_select{
-
+    color: #232426;
 }
 
 .si_select{
-
+     color: #2ea7f2;
 }
 
 .bk_select{
+     color: #e8b427
 }
 
 
  @media only screen and (max-width: 600px) {
     .jumbotron{
         height:22rem;
+        background-image: url(image-path('shower2.jpg'));
     }
     h1{
         font-size: 4em;
     }
-    .about{
-        display:none;
-    }
-
-    .the_boroughs{
-        font-size: .6em;
-    }
-
+  
 }
 
- @media only screen and (max-width: 450px) {
- 
-    .the_boroughs{
-        font-size: .37em;
-    }
-
-}
 
 
 

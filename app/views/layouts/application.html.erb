@@ -7,7 +7,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
-    <%= favicon_link_tag asset_path('shower_icon.png'), :rel => 'icon', :type =>  'image/png' %>
+    <%= favicon_link_tag asset_path('bubbles.png'), :rel => 'icon', :type =>  'image/png' %>
 
     <meta name="keywords" content=" FreshCity, Fresh-City, Free-Showers, Free-Showers-NYC, Free-Showers-Bronx, Free-Showers-Queens, Free-Showers-Manhattan, Free-Showers-Staten-Island, Free-Showers-Brooklyn, ShowerPower, Shower-Power, Cheap-Showers, Cheap-Showers-NYC, Cheap-Showers-Bronx, Cheap-Showers-Queens, Cheap-Showers-Manhattan, Cheap-Showers-Staten-Island, Cheap-Showers-Brooklyn ">
     <meta name="description" content="A listing of Free & Cheap showers within New York City">
@@ -17,22 +17,21 @@
 
   <body>
 
-
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
  <a class="navbar-brand" href="/"><%= t('title_and_nav.title') %></a>
+ <div class="lang_holster">
+    <p class="language_select"> Language Select:</p>  
+         <p class="language_select"> Seleccione el idioma:</p>
+         <p class="language_select"> Выберите язык:</p>
+         <p class="language_select"> 选择语言：</p>
+         <p class="language_select"> اختار اللغة: </p> 
+ </div>
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active lang_holster">
-         <p class="language_select"> Language Select:</p>  
-         <p class="language_select"> Seleccione el idioma:</p>
-         <p class="language_select"> Выберите язык:</p>
-         <p class="language_select"> 选择语言：</p>
-         <p class="language_select"> اختار اللغة: </p>
-      </li>
       <li class="nav-item active">    
         <%= link_to t('title_and_nav.english'), class: "nav-link", locale: "en" %>     
       </li>
@@ -51,6 +50,7 @@
     </ul>
   </div>
 </nav>
+
    <div class="container-fluid">
     
 <div id="notice_wrapper">
