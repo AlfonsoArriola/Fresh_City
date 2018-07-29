@@ -33,6 +33,21 @@ zh-CN:
     manhattan: '曼哈顿'
     staten_island: '斯塔滕岛'
     brooklyn: '布鲁克林'
+  show_page:
+    cost: '成本'
+    address: '地址'
+    borough: '镇'
+    phone: '电话号码'
+    location: '地点类型'
+    gender: '性别'
+    age_range: "年龄范围"
+    operation_hours: "一周的几天和几小时的运作"
+    towels: "他们有毛巾吗？"
+    soap: "他们有肥皂吗？"
+    fem_hy: "他们有女性卫生用品吗？"
+    shower_shoes: "他们有淋浴鞋吗？"
+    notes: "关于本网站的说明"
+    update: "最后更新"
   bronx:
     home_page:
         header: '布朗克斯'

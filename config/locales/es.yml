@@ -46,6 +46,21 @@ es:
     manhattan: 'Manhattan'
     staten_island: 'Staten Island'
     brooklyn: 'Brooklyn'
+  show_page:
+    cost: 'costo'
+    address: 'Dirección'
+    borough: 'Ciudad'
+    phone: 'Número de teléfono'
+    location: "Tipo de ubicación"
+    gender: 'Género'
+    age_range: "Rango de edad"
+    operation_hours: "Días de la semana y horas de operación"
+    towels: "¿Tienen toallas?"
+    soap: "¿Tienen jabón?"
+    fem_hy: "¿Tienen productos de higiene femenina?"
+    shower_shoes: "¿Tienen zapatos de ducha?"
+    notes: "Notas sobre este sitio"
+    update: "Última actualización"
   bronx:
     home_page:
         header: 'The Bronx'

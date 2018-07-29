@@ -78,6 +78,21 @@ en:
     manhattan: 'Manhattan'
     staten_island: 'Staten Island'
     brooklyn: 'Brooklyn'
+  show_page:
+    cost: 'cost'
+    address: 'Address'
+    borough: 'Borough'
+    phone: 'Phone Number'
+    location: "Type Of location"
+    gender: "Gender"
+    age_range: "Age Ranges"
+    operation_hours: "Days of the week & hours of operation"
+    towels: "Do They Have Towels?"
+    soap: "Do They Have Soap?"
+    fem_hy: "Do They Have Feminine Hygiene Products?"
+    shower_shoes: "Do They Have Shower Shoes?"
+    notes: " Notes About this Site"
+    update: "Last Update"
   bronx:
     home_page:
         header: 'The Bronx'
@@ -98,6 +113,7 @@ en:
     home_page:
         header: 'Brooklyn'
         sub_header: 'Home of Biggie & Hipsters.'
+  
   
 
 

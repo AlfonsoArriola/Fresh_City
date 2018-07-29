@@ -16,9 +16,12 @@
 
 h1 {
   font-size: 7em;
-  color:rgb(7, 34, 242);
- 
+  color:rgb(7, 34, 242); 
   font-family: 'Poiret One', cursive;
+}
+
+.find_by{
+	border-bottom:double;
 }
 
 .listing ul{
@@ -28,15 +31,19 @@ h1 {
 .listing li{
 	border-radius:17px;
 	z-index: -1;
-	border: 1px solid red;
 	width: 13rem;
-
+	background: #50a4ea;
+	color:black;
 }
 
 .listing li:hover{
 	transform: rotateY(-20deg) rotateX(10deg)scale(1.3);
 	transition: transform .1s ease-in-out;
 	z-index: 2;
+}
+
+.listing a{
+	color: black;
 }
 
 .listing a:hover{
@@ -50,23 +57,23 @@ h1 {
 
 
 .bx_select{
-    color: #55e08a;
+    border: 3px solid gold;
 }
 
 .q_select{
-	color: #e0556a;
+    border: 3px solid #e0556a;
 }
 
 .m_select{
-    color: #232426;
+	border: 3px solid #232426;
 }
 
 .si_select{
-     color: #2ea7f2;
+	 border: 3px solid blue;
 }
 
 .bk_select{
-     color: #e8b427
+	 border: 3px solid #55e08a;
 }
 
 

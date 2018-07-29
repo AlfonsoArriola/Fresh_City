@@ -46,6 +46,21 @@ ar:
     manhattan: 'مانهاتن'
     staten_island: 'جزيرة ستاتن'
     brooklyn: 'بروكلين'
+  show_page:
+    cost: "كلفةs"
+    address: "عنوان"
+    borough: "البلدة"
+    phone: "رقم الهاتف"
+    location: "نوع الموقع"
+    gender: "جنس"
+    age_range: "الفئة العمرية"
+    operation_hours: "أيام الأسبوع وساعات العمل"
+    towels: "هل لديهم مناشف؟"
+    soap: "هل لديهم صابون؟"
+    fem_hy: "هل لديهم منتجات النظافة الأنثوية؟"
+    shower_shoes: "هل لديهم أحذية الاستحمام؟"
+    notes: "ملاحظات حول هذا الموقع"
+    update: "اخر تحديث"
   bronx:
     home_page:
         header: 'ذا برونكس'

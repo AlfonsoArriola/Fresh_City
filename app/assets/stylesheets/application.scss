@@ -133,12 +133,19 @@ a:hover{
 	width:22rem;
 }
 
-
-
 .site_profile_image img{
 	height: 22rem;
     width: 22rem;  
     object-fit: contain;
+}
+
+
+.show_page_catergory{
+	color:steelblue;
+}
+
+.show_name{
+	margin: 5rem 0rem 3rem 5rem;	
 }
 
 .bottom_space{
@@ -146,14 +153,13 @@ a:hover{
 }
 
 .footer{
-	height: 18rem;
+	height: 11rem;
     border-top: double;
 	font-size: 1.1em;
 }
 .footer a{
 	color:blue;
 }
-
 
  @media only screen and (max-width: 600px) {
     .bottom_space{

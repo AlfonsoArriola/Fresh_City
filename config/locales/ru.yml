@@ -34,6 +34,21 @@ ru:
     manhattan: 'Манхеттен'
     staten_island: 'Статен-Айленд'
     brooklyn: 'Brooklyn'
+  show_page:
+    cost: "Стоимость"
+    address: "Адрес"
+    borough: "район"
+    phone: "Номер телефона"
+    location: "Тип местоположения"
+    gender: 'Пол'
+    age_range: "Возрастной диапазон"
+    operation_hours: "Дни недели и часы работы"
+    towels: "У них есть полотенца?"
+    soap: "У них есть мыло?"
+    fem_hy: "Имеют ли они женскую гигиеническую продукцию?"
+    shower_shoes: "У них есть туфли для душа?"
+    notes: "Примечания об этом сайте"
+    update: "Последнее обновление"
   bronx:
     home_page:
         header: 'Бронкс'

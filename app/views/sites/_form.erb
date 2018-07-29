@@ -8,7 +8,7 @@
      </ul>
  <% end %>
 		  <div>
-		 	 <%= f.label :name %>
+		 	 <%= f.label :name %> <br>
 		 	 <%= f.text_field :name %>
 		  </div>
 		  <div>
@@ -17,15 +17,15 @@
 		         "See Notes"]) %>
 		  </div>
 		  <div>
-		 	 <%= f.label :address %>
+		 	 <%= f.label :address %> <br>
 		 	 <%= f.text_field :address %>
 		  </div>
 		   <div>
-		 	 <%= f.label :phone %>
+		 	 <%= f.label :phone %> <br>
 		 	 <%= f.text_field :phone %>
 		  </div>
 		   <div>
-		 	 <%= f.label :location_type %>
+		 	 <%= f.label :location_type %> <br>
 		 	 <%= f.text_field :location_type %>
 		  </div>
 		  <div>
@@ -33,35 +33,35 @@
 		 	 <%= f.select(:borough_id, @boroughs.map {|b| [b.name, b.id]}) %>
 		  </div>
 		  <div>
-		 	 <%= f.label :gender %>
+		 	 <%= f.label :gender %> <br>
 		 	 <%= f.select(:gender, ["Please, make a selection",  "Women" ,
 		          "Men", "Any", "See Notes"]) %>
 		 </div>
 		 <div>
-		 	 <%= f.label :age_range %>
+		 	 <%= f.label :age_range %> <br>
 		 	 <%= f.text_field :age_range %>
 		 </div>	
 		 <div>
-		 	 <%= f.label :days_of_the_week_and_hours_of_operation, t('site_form.days_of_the_week_and_hours_of_operation') %>
+		 	 <%= f.label :days_of_the_week_and_hours_of_operation, t('site_form.days_of_the_week_and_hours_of_operation') %> <br>
 		 	 <%= f.text_field :days_of_the_week_and_hours_of_operation%>
 		  </div>
 		   <div>
-		 	 <%= f.label :towel  %>
+		 	 <%= f.label :towel  %> <br>
 		 	 <%= f.select(:towel, [ "Please, make a selection", "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
 		  <div>
-		 	 <%= f.label :shower_shoe %>
+		 	 <%= f.label :shower_shoe %> <br>
 		 	 <%= f.select(:shower_shoe,  [ "Please, make a selection", "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
 		  <div>
-		 	 <%= f.label :soap %>
+		 	 <%= f.label :soap %> <br>
 		 	 <%= f.select(:soap,  [ "Please, make a selection", "Yes, and you can keep it." ,
 		          "Yes, but you cannot keep it.", "No", "See Notes"]) %>
 		  </div>
 		  <div>
-		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %>
+		 	 <%= f.label :feminine_hygiene, t('site_form.feminine_hygiene') %> <br>
 		 	 <%= f.select(:feminine_hygiene,  ["Please, make a selection","Yes" ,"No", "See Notes"]) %>
 		  </div>
 		 
@@ -72,12 +72,12 @@
 		  </div>
 
 		  <div>
-		 	 <%= f.label :image %>
+		 	 <%= f.label :image %> <br>
 		 	 <%= f.file_field :image %>
 		  </div>
 		  
 		  <div>
-		 	 <%= f.label :note %>
+		 	 <%= f.label :note %> <br>
 		 	 <%= f.text_area :note, size: "40x12" %>
 		  </div>
 
