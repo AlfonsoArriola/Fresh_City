@@ -1,14 +1,32 @@
-<h2> The about Us page </h2>
+<!-- <h2> The about Us page </h2> -->
 
 	<div class="row">
-
-		    <a href="http://showerpowernyc.org/">Shower Power</a>. <%= t('about.p_3') %>
-		<div class="col-lg-5 col-sm-12 about p-5">
 		
-			
+		<div class="col-lg-5 col-sm-12 about p-5">
+			<%= t('about.p_1') %>
+		<br>
+		<br>
+		 <%= t('about.p_2') %>
+		 <br>
+		 <br>
+
+		 <a href="http://showerpowernyc.org/"> <%= image_tag "SP.png" %></a>
+		 <br>
+		 <br>
+		 <%= t('about.p_3') %>
+		<br>
+		<br>
+		 <%= t('about.p_4') %>
+		 <br>
+		 <br>
+		
+		<a href="mailto:freshcityny@gmail.com ">freshcityny@gmail.com </a>
 		</div>
-		<div class="col-lg-7 col-sm-0 about p-5 bg_image">
-			
+		<div class="col-lg-7 col-sm-0 about p-5 text-center catch_phrase">
+			 <p> N Y</p>
+			 <p> <i><span class="heart"> <%= t('about.love') %> </span> </i> </p>
+			 <p> N Y</p>
+			 <p> <i><span class="fresh"> <%= t('about.fresh') %> </span></i> </p>		
 		</div>
 
 	</div>

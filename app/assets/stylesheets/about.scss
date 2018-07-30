@@ -2,3 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+@import 'partials/variables';
+@import 'partials/mixins';
+
+.catch_phrase{
+	font-size:3em;
+}
+
+.heart{
+	color:$heart-red;
+}
+.fresh{
+	color:$fresh-blue;
+}
