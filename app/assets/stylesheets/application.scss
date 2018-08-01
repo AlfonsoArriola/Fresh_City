@@ -160,8 +160,25 @@ a:hover{
     .footer{
         height: 3rem;
     }
+
+
+
+    iframe{
+      height: 400px;
+      width: 400px;
+    }
 }
 
+ @media only screen and (max-width: 400px) {
+      .site_profile_image{
+       display:none;
+    }
+
+     iframe{
+      height: 270px;
+      width: 270px;
+    }
+}
 
 
 

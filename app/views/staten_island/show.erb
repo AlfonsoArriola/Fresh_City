@@ -3,8 +3,13 @@
 		    <div class="show_name">
 					<h2><%= @site.name %></h2>
 					    <br>
-					    <h4><%= @site.website %></h4>
-				</div>
+				  <% if @site.website.empty? %>
+				      <% else %>
+				   <h6>
+				   	<%= link_to @site.website, "#{@site.website}" %>
+				   </h6>
+				      <% end %>
+			  </div>
 		
 			<div>
 				<u class="show_page_catergory"> <%= t('show_page.cost') %> </u> <br>
