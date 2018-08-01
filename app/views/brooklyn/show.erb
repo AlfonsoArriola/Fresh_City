@@ -5,9 +5,11 @@
 					    <br>
 				  <% if @site.website.empty? %>
 				      <% else %>
-				   <h6><%= @site.website %></h6>
+				   <h6>
+				   	<%= link_to @site.website, "http://#{@site.website}" %>
+				   </h6>
 				      <% end %>
-				</div>
+			  </div>
 		
 			<div>
 				<u class="show_page_catergory"> <%= t('show_page.cost') %> </u> <br>

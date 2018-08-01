@@ -82,7 +82,8 @@ h1 {
  @media only screen and (max-width: 600px) {
     .jumbotron{
         height:22rem;
-        background-image: url(image-path('shower2.jpg'));
+        background-image: none;
+        background: $cream;
     }
     h1{
         font-size: 4em;
