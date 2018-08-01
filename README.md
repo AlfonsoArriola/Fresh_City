@@ -4,7 +4,7 @@ A ruby on rails project that allows admin to C.R.U.D. locations within the 5 bor
 
 features:
 
-* Ruby 2.5.1p57
+* Ruby 2.5.1
 
 * i18n gem
 
