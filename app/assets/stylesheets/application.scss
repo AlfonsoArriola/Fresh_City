@@ -26,13 +26,6 @@ label{
 	display:contents;
 }
 
-@font-face{
-	font-family: "Tengwarc";
-	src: url('/assets/Tengwarc') format("truetype");
-
-	font-family: "ModernWakandan_Bold";
-	src: url('/assets/ModernWakandan_Bold') format("truetype");
-}
 
   html, body {
         height: 100%;
@@ -41,9 +34,6 @@ label{
         font-family: 'Racing Sans One', cursive;
       }
 
-p{
-	font-family: "ModernWakandan_Bold" , sans-serif;
-}
 .bg-light {
     background-color: #50a4ea !important;
 }
@@ -81,7 +71,7 @@ ul {
 
 
 .jumbotron_2{
-	background-image: url(image-path('white_2.jpg'));
+	background-image: url(image-path('white_1.jpg'));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
