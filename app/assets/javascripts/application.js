@@ -16,27 +16,9 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-(function() {
-
-    let language_select = $(".language_select");
-    let langIndex = -1;
-    
-    function showNextLang() {
-        ++langIndex;
-        language_select.eq(langIndex % language_select.length)
-            .fadeIn(2000)
-            .delay(2000)
-            .fadeOut(2000, showNextLang);
-    }
-    
-    showNextLang();
-    
-})();
-
 // ____________jQuery starts  _________
 $(document).ready(function(){
 // __________________________________
-
 
    $('#notice_wrapper').hide();
 	$('#notice_wrapper').fadeIn();
@@ -46,31 +28,29 @@ $(document).ready(function(){
     })
   }, 4500);
 
-
-
-
-
 (function() {
-
     let language_select = $(".language_select");
-    let langIndex = -1;
-    
+    let langIndex = -1; 
     function showNextLang() {
         ++langIndex;
         language_select.eq(langIndex % language_select.length)
             .fadeIn(2000)
             .delay(2000)
             .fadeOut(2000, showNextLang);
-    }
-    
+    }   
     showNextLang();
     
 })();
-
-
-  
-
+ 
 // ________  JQuery ends _________________________
 }); 
+
+
+
+
+
+
+
+
 
 

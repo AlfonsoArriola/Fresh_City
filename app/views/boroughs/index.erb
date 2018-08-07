@@ -14,14 +14,11 @@
       
       <u> <h4>  Boroughs </h4> </u>
      
-        
-
    <% @boroughs.each do |borough| %>
             <div class="p-5 mb-4 bg-info text-white bubble text-center ">
                <h3> <div> <%= borough.name %> </div></h3>
                   
-                 <br>
-                  
+                 <br>  
                  
                  <%= link_to 'Full Info', borough_path(borough), 'data-disable-with': "Hold, please..." %>|
               
