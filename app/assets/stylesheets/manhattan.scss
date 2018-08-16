@@ -5,10 +5,3 @@
 
 @import 'partials/variables';
 @import 'partials/mixins';
-body{
-	background-image: url(image-path('shower2.jpg'));
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center; 
-	background-attachment: fixed;
-}

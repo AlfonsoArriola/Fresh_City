@@ -14,33 +14,38 @@
 		</div>	
     </div>  
   </div>
-</div>
+</div> 
 
 <div class="row">
-	<div class="col">
-
-		   <div class="row the_boroughs m-5">
-			   	 <div class="col-lg-7 col-sm-0 about p-5">
-			   	 	
-			   	 	<div class="row">
-			   	 		<div class="col border border-success">
-			   	 			<p> 
-                     <%= t('about.welcome') %>
+  <div class="col">
+    <div class="row the_boroughs m-5">
+	   	<div class="col-lg-7 col-sm-0 about p-5">
+	   	 	
+	   	 	<div class="row">
+	   	 		<div class="col shadow-sm m-2 p-2">
+	   	 			<p> 
+		             <%= t('about.welcome') %>
 		   	 		     <br> <br>
-		   	 		<%= t('about.home_page') %>
+		   	 		 <%= t('about.home_page') %>
+	   	 			</p>
 
-			   	 			</p>
-			   	 			<%= link_to t('about.link'), about_index_path %>
-			   	 		</div>
-			   	 	</div>
-			   	 	<div class="row">
-			   	 		<div class="col border border-primary">
-			   	 			<p> <%= t('prospects.home_page') %> </p>
-			   	 			<%= link_to t('prospects.link'), new_prospect_site_path %>
-			   	 		</div>
-			   	 	</div>
-			   	 
-			   	 </div>
+	   	 			 <%= link_to t('about.link'), about_index_path %>
+	   	 		</div>
+	   	 	</div>
+
+	   	 	<div class="row">
+	   	 		<div class="col shadow-sm m-2 p-2">
+	   	 			<p> 
+	   	 			 <%= t('prospects.home_page') %>
+	   	 		    </p>
+
+	   	 			 <%= link_to t('prospects.link'), new_prospect_site_path %>
+	   	 		</div>
+	   	 	</div>
+	   	 
+	   	</div>
+
+
    	     <div class="col-lg-5 col-sm-12 listing">
    	     	   <div class="row">
 					<div class="col text-center find_by">
@@ -68,7 +73,6 @@
    	     </div>
 
 
-		   </div>
-
-	</div>
+    </div>
+  </div>
 </div>
