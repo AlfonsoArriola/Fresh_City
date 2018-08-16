@@ -35,7 +35,6 @@ h1 {
 	border-radius:17px;
 	z-index: -1;
 	width: 13rem;
-	
     border-style: solid;
     border-width: 2px;
 }
@@ -85,10 +84,18 @@ h1 {
     .jumbotron{
         height:22rem;
         background-image: none;
-        background: $cream;
+        background: none;
     }
     h1{
         font-size: 4em;
+    }
+
+    .listing li{
+        background: $nav-blue
+    }
+
+    .listing li a{
+       color:white;
     }
   
 }

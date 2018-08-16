@@ -71,19 +71,19 @@ es:
   queens:
     home_page:
         header: "Queens"
-        sub_header: 'Hogar de Spider-man'
+        sub_header: 'Hogar de los Mets'
   manhattan:
     home_page:
         header: 'Manhattan'
-        sub_header: 'El Centro'
+        sub_header: 'Quiero ser parte de eso ...'
   staten_island:
     home_page:
         header: 'Staten Island'
-        sub_header: 'Protect Yo Neck.'
+        sub_header: 'Wu'
   brooklyn:
     home_page:
         header: 'Brooklyn'
-        sub_header: 'El hogar de Biggie e Hipsters'
+        sub_header: 'Todo fue un sueño...'
   
  
  

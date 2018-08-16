@@ -66,7 +66,7 @@ ar:
   bronx:
     home_page:
         header: 'ذا برونكس'
-        sub_header: 'The Boogie Down'
+        sub_header: 'و Boogie داون'
   queens:
     home_page:
         header: 'كوينز'
@@ -74,15 +74,15 @@ ar:
   manhattan:
     home_page:
         header: 'مانهاتن'
-        sub_header: 'The Center'
+        sub_header: 'أريد أن أكون جزءا من ذلك ...'
   staten_island:
     home_page:
         header: 'جزيرة ستاتن'
-        sub_header: 'Protect Yo Neck.'
+        sub_header: 'Wu'
   brooklyn:
     home_page:
         header: 'بروكلين'
-        sub_header: 'Home of Biggie & Hipsters.'
+        sub_header: 'كل ذلك كان مجرد حلم...'
 
 
 

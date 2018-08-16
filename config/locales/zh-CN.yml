@@ -59,7 +59,7 @@ zh-CN:
   queens:
     home_page:
         header: '皇后'
-        sub_header: 'Home Of Spider-Man'
+        sub_header: '大都会之家'
   manhattan:
     home_page:
         header: '曼哈顿'
@@ -67,8 +67,8 @@ zh-CN:
   staten_island:
     home_page:
         header: '斯塔滕岛'
-        sub_header: 'Protect Yo Neck.'
+        sub_header: 'Wu'
   brooklyn:
     home_page:
         header: '布鲁克林'
-        sub_header: 'Home of Biggie & Hipsters.'
+        sub_header: '那只不过是一场梦...'

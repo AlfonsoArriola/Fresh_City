@@ -102,19 +102,19 @@ en:
   queens:
     home_page:
         header: 'Queens'
-        sub_header: 'Home Of Spider-Man'
+        sub_header: 'Home Of The Mets'
   manhattan:
     home_page:
         header: 'Manhattan'
-        sub_header: 'The Center'
+        sub_header: '我想成为它的一部分......'
   staten_island:
     home_page:
         header: 'Staten Island'
-        sub_header: 'Protect Yo Neck.'
+        sub_header: 'Wu'
   brooklyn:
     home_page:
         header: 'Brooklyn'
-        sub_header: 'Home of Biggie & Hipsters.'
+        sub_header: 'It Was All A Dream...'
   
   
 

@@ -55,20 +55,20 @@ ru:
   bronx:
     home_page:
         header: 'Бронкс'
-        sub_header: 'The Boogie Down'
+        sub_header: 'Буги-Вниз'
   queens:
     home_page:
         header: 'Квинс'
-        sub_header: 'Home Of Spider-Man'
+        sub_header: 'Главная Мец'
   manhattan:
     home_page:
         header: 'Манхеттен'
-        sub_header: 'The Center'
+        sub_header: 'Я хочу быть частью этого ...'
   staten_island:
     home_page:
         header: 'Статен-Айленд'
-        sub_header: 'Protect Yo Neck.'
+        sub_header: 'Wu'
   brooklyn:
     home_page:
         header: 'Brooklyn'
-        sub_header: 'Home of Biggie & Hipsters.'
+        sub_header: 'Все это было мечтой...'
