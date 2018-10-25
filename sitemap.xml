@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://fresh-city.herokuapp.com/</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/about?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/prospect_sites/new?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/14?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/the_bronx/10?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/queens/11?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/19?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/18?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/17?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/12?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/13?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/9?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/8?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/2?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/1?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/manhattan/7?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/staten_island/15?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?class=nav-link&amp;locale=en</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?class=nav-link&amp;locale=es</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?class=nav-link&amp;locale=ru</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?class=nav-link&amp;locale=zh-CN</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://fresh-city.herokuapp.com/brooklyn/16?class=nav-link&amp;locale=ar</loc>
+  <lastmod>2018-10-25T05:19:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
