@@ -1,9 +1,10 @@
+# SIMPLIFIED CHINESE:
 zh-CN:
   title_and_nav:
     title: '家'
     home: '家'
-    header: '新鲜的城市'
-    sub:  "纽约市免费和廉价淋浴的主要目录"    
+    header: '新鲜的城市纽约'
+    sub:  "纽约市领先的免费和实惠淋浴的目录"    
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
@@ -12,7 +13,7 @@ zh-CN:
   generic:
     free_list_title: '免费淋浴。'
     free_list_none: "此时没有列出淋浴，请稍后再查看。"
-    cheap_list_title: '廉价淋浴。'
+    cheap_list_title: '经济实惠'
     map: 'zh-CN'
   about:
     welcome: "欢迎"
@@ -31,7 +32,7 @@ zh-CN:
   site_home:
     add_new_site: "Click To Register A New Site."
     find_by_boro: "选择一个自治市镇"
-    showers: "免费和廉价淋浴"
+    showers: "免费和负担得起的淋浴。"
     bronx: '布朗克斯'
     queens: '皇后'
     manhattan: '曼哈顿'
