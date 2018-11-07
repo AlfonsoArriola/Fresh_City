@@ -33,8 +33,8 @@ en:
   title_and_nav:
     title: 'Home'
     home: 'Home'
-    header: 'Fresh City'
-    sub: "New York City's leading directory for free & cheap showers"
+    header: 'Fresh City NY'
+    sub: "New York City's leading directory for free & affordable showers"
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
@@ -43,7 +43,7 @@ en:
   generic:
     free_list_title: 'Free showers.'
     free_list_none: "No showers listed at this time, please check again later."
-    cheap_list_title: 'Cheap.'
+    cheap_list_title: 'Affordable.'
     map: 'en'
   about:
     welcome: "Welcome!"
@@ -74,7 +74,7 @@ en:
   site_home:
     add_new_site: "Click To Register A New Site."
     find_by_boro: "Find By Borough."
-    showers: "For Free & Cheap Shower."
+    showers: "For Free & Affordable Showers."
     bronx: 'The Bronx'
     queens: 'Queens'
     manhattan: 'Manhattan'

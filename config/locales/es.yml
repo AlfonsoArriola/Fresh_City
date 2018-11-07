@@ -2,8 +2,8 @@ es:
   title_and_nav:
     title: 'Casa'
     home: 'Casa'
-    header: 'Ciudad Fresca'
-    sub:  "Directorio líder de la ciudad de Nueva York para duchas gratuitas y baratas"    
+    header: 'Ciudad fresca NY'
+    sub:  "Directorio líder de la ciudad de Nueva York para duchas gratuitas y asequibles"    
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
@@ -12,7 +12,7 @@ es:
   generic:
     free_list_title: 'Duchas gratuitas.'
     free_list_none: "Ninguno en este momento, por favor revise más tarde."
-    cheap_list_title: 'Duchas baratas.'
+    cheap_list_title: 'Asequible.'
     map: 'es'
   about:
     welcome: "¡Bienvenido!"
@@ -43,7 +43,7 @@ es:
   site_home:
     add_new_site: "Click To Register A New Site."
     find_by_boro: "Encontrar por distrito."
-    showers: "Para ducha gratis y económica."
+    showers: "Para duchas gratuitas y asequibles."
     bronx: 'El Bronx'
     queens: 'Queens'
     manhattan: 'Manhattan'

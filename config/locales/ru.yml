@@ -3,7 +3,7 @@ ru:
     title: 'Главная'
     home: 'Главная'
     header: 'Свежий город'
-    sub:  "Ведущий каталог Нью-Йорка для свободных и дешевых ливней"    
+    sub:  "Ведущий каталог Нью-Йорка для свободных и доступных ливней"    
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
@@ -12,7 +12,7 @@ ru:
   generic:
     free_list_title: 'Бесплатные дожди.'
     free_list_none: "В настоящее время нет ливней, пожалуйста, проверьте позже."
-    cheap_list_title: 'Дешевые душ.'
+    cheap_list_title: 'Доступный'
     map: 'ru'
   about:
     welcome: "Добро пожаловать!"
@@ -31,7 +31,7 @@ ru:
   site_home:
     add_new_site: "Click To Register A New Site."
     find_by_boro: "Выберите A Borough"
-    showers: "Бесплатный и дешевый душ"
+    showers: "Для свободных и доступных душ."
     bronx: 'Бронкс'
     queens: 'Квинс'
     manhattan: 'Манхеттен'

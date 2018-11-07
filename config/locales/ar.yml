@@ -2,8 +2,8 @@ ar:
   title_and_nav:
     title: 'الصفحة الرئيسية'
     home: 'الصفحة الرئيسية'
-    header: 'مدينة جديدة'
-    sub:  "الدليل الرائد في مدينة نيويورك للاستحمام الحرة ورخيصة"    
+    header: 'مدينة جديدة في نيويورك'
+    sub:  "الدليل الرائد في مدينة نيويورك للاستحمام المجاني وبأسعار معقولة"    
     english: 'English'
     spanish: 'Español'
     russian: 'русский'
@@ -12,7 +12,7 @@ ar:
   generic:
     free_list_title: 'الاستحمام الحرة'
     free_list_none: "لا توجد حمامات مدرجة في هذا الوقت ، يرجى التحقق مرة أخرى لاحقًا."
-    cheap_list_title: 'الاستحمام رخيصة'
+    cheap_list_title: 'بأسعار معقولة، ميسور، متناول اليد'
     map: 'ar'
   about:
     welcome: "أهلا بك!"
@@ -42,7 +42,7 @@ ar:
   site_home:
     add_new_site: "Click To Register A New Site."
     find_by_boro: "اختر A بورو"
-    showers: "للاستحمام الحرة ورخيصة"
+    showers: "للاستحمام الحرة وبأسعار معقولة"
     bronx: 'ذا برونكس'
     queens: 'كوينز'
     manhattan: 'مانهاتن'
