@@ -1,6 +1,8 @@
 require 'api_constraints'
 
 Rails.application.routes.draw do
+  get 'pages/api'
+  get 'pages/contact'
   namespace :api, defaults: {format: 'json'} do
     scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
         resources :sites
@@ -19,10 +21,9 @@ Rails.application.routes.draw do
      resources :staten_island
      resources :brooklyn
      resources :about
-
      resources :prospect_sites
-
-
+     
+    
   
      resources :sites do
      	# resources :trains
