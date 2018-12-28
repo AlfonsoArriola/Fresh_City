@@ -6,21 +6,14 @@
 @import 'partials/mixins';
 
 
-.jumbotron {
-	height: 28rem;
-	position:relative;
-	overflow:hidden;
-    // background-image: url(image-path('orange_2.jpg'));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-attachment: fixed;
-}
 
+h3{
+    color: $cream;
+}
 h1 {
   font-size: 7em;
-  color:white; 
-  font-family: 'Poiret One', cursive;
+  color: white;
+  // font-family: 'Poiret One', cursive;
 }
 
 .find_by{
@@ -32,11 +25,7 @@ h1 {
 }
 
 .listing li{
-	border-radius:17px;
-	z-index: -1;
-	width: 13rem;
-    border-style: solid;
-    border-width: 2px;
+	
 }
 
 .listing li:hover{

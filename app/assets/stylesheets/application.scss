@@ -33,11 +33,11 @@ html, body {
   font-family: 'Racing Sans One', cursive;
 }
 body{
-  // background-image: url(image-path('shower2.png'));
+  background-image: url(image-path('colorful_towels_2000.jpg'));
   background-repeat: no-repeat;
   background-position: center; 
   background-attachment: fixed;
-  background: $nav-blue;
+  
 }
 
 .bg-light {
@@ -87,9 +87,9 @@ ul {
 	overflow:hidden;
 }
 
-h3{
-	color:black;
-}
+// h3{
+// 	color:black;
+// }
 
 a{
   color:crimson;
@@ -152,8 +152,8 @@ a:hover{
 
 .footer{
 	height: 11rem;
-    border-top: double;
 	font-size: 1.1em;
+  border-top: 2px solid white;
 }
 .footer a{
 	color:blue;
