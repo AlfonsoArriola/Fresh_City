@@ -26,22 +26,22 @@ label{
 	display:contents;
 }
 
-
-  html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        font-family: 'Racing Sans One', cursive;
-      }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Racing Sans One', cursive;
+}
 body{
-        background-image: url(image-path('shower2.png'));
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+  // background-image: url(image-path('shower2.png'));
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  background: $nav-blue;
 }
 
 .bg-light {
-    background-color: #50a4ea !important;
+  background-color: #50a4ea !important;
 }
 .lang_holster{
 	color:#FFFDD0 ;
@@ -56,12 +56,12 @@ body{
 
 .nav-item a{
 	color: honeydew;
-    text-shadow: none;
+  text-shadow: none;
 }
 
 .nav-item a:hover{
 	color: coral;
-    text-shadow: none;
+  text-shadow: none;
 }
 
 ul {
@@ -70,9 +70,9 @@ ul {
 
 
 #map, #pano {
-        float: left;
-        height: 100%;
-        width: 45%;
+  float: left;
+  height: 100%;
+  width: 45%;
 }
 
 
@@ -102,11 +102,11 @@ a:hover{
 }
 
 #notice_wrapper{
-     position:absolute;
-     right:0;
-     width: 33%;
-     z-index: 999;
-     background: gold;
+  position:absolute;
+  right:0;
+  width: 33%;
+  z-index: 999;
+  background: gold;
 
      .notice{
 	padding: 2.75rem;
@@ -133,8 +133,8 @@ a:hover{
 
 .site_profile_image img{
 	height: 22rem;
-    width: 22rem;  
-    object-fit: contain;
+  width: 22rem;  
+  object-fit: contain;
 }
 
 
@@ -164,7 +164,7 @@ a:hover{
 	    height: 3rem;
 }
     .footer{
-        height: 3rem;
+      height: 3rem;
     }
 
 

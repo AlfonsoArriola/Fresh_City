@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="jumbotron">
   <div class="container">
   	<div class="row">
@@ -14,12 +14,51 @@
 		</div>	
     </div>  
   </div>
-</div> 
+</div>  -->
+
+<div class="row">
+		<div class="col-lg-7 text-center">
+			<i>
+					<h1> 
+			        <%= t('title_and_nav.header') %>
+		        </h1>
+				</i>
+		        <h3> 
+		        	<%= t('title_and_nav.sub') %>
+		        </h3>
+		</div>
+	    <div class="col-lg-5 col-sm-12">
+   	     	   <div class="row">
+					<div class="col text-center">
+						<p> <%= t('site_home.showers') %></p>
+						<p class=" text-center"> <%= t('site_home.find_by_boro') %> </p>
+					</div>
+				</div>
+   	     	<ul>
+   	     		<li class="col-12 borough">
+   	     		    <%= link_to t('site_home.bronx') , the_bronx_index_path %> 	
+   	     		</li>
+   	     		<li class="col-12 borough">
+   	     			<%= link_to t('site_home.queens') , queens_path %> 
+   	     		</li>
+   	     		<li class="col-12 borough" >
+   	     			<%= link_to t('site_home.manhattan') , manhattan_index_path %> 
+   	     		</li>
+   	     		<li class="col-12 borough">
+   	     			<%= link_to t('site_home.staten_island') , staten_island_index_path %> 
+   	     		</li>
+   	     		<li class="col-12 borough">
+   	     			<%= link_to t('site_home.brooklyn') , brooklyn_index_path %> 
+   	     		</li>
+   	     	</ul>	
+   	    </div>
+	
+</div>
 
 <div class="row">
   <div class="col">
     <div class="row the_boroughs m-5">
-	   	<div class="col-lg-7 col-sm-0 about p-5">
+	<!--    	<div class="col-lg-7 col-sm-0 about p-5">
 	   	 	
 	   	 	<div class="row">
 	   	 		<div class="col shadow-sm m-2 p-2">
@@ -43,10 +82,10 @@
 	   	 		</div>
 	   	 	</div>
 	   	 
-	   	</div>
+	   	</div> -->
 
 
-   	     <div class="col-lg-5 col-sm-12 listing">
+   	<!--      <div class="col-lg-5 col-sm-12 listing">
    	     	   <div class="row">
 					<div class="col text-center find_by">
 						<p> <%= t('site_home.showers') %></p>
@@ -70,7 +109,7 @@
    	     			<%= link_to t('site_home.brooklyn') , brooklyn_index_path %> 
    	     		</li>
    	     	</ul>	
-   	     </div>
+   	     </div> -->
 
 
     </div>

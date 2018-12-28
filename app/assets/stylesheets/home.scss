@@ -10,7 +10,7 @@
 	height: 28rem;
 	position:relative;
 	overflow:hidden;
-    background-image: url(image-path('orange_2.jpg'));
+    // background-image: url(image-path('orange_2.jpg'));
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
@@ -19,7 +19,7 @@
 
 h1 {
   font-size: 7em;
-  color:$logo-blue; 
+  color:white; 
   font-family: 'Poiret One', cursive;
 }
 
@@ -55,7 +55,7 @@ h1 {
 
 
 .borough{
-     font-size: 1.3em;
+     font-size: 2em;
 }
 
 
