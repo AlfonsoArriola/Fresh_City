@@ -7,22 +7,23 @@
 
 
 
-h3{
-
-}
 h1 {
-  font-size: 8em;
-  color: $nav-blue;
-  // font-family: 'Poiret One', cursive;
+    font-size: 8em;
+    font-family: 'Poiret One', cursive;
+    color: white
+}
+
+h3{
+    color: $cream;
 }
 
 .find_by{
-	border-bottom:double;
+    border-bottom:double;
 }
 
 .direct_to_showers{
-    color:$cream;
-    font-size: 2em;
+  color:$cream;
+  font-size: 2em;
 }
 
 .listing ul{

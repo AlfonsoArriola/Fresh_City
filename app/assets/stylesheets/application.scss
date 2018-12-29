@@ -32,11 +32,17 @@ html, body {
   padding: 0;
   font-family: 'Racing Sans One', cursive;
 }
+
 body{
-  background-image: url(image-path('orange_towels_1500.jpg'));
+  background-image: url(image-path('colorful_towels_2000.jpg'));
   background-repeat: no-repeat;
   background-position: center; 
   background-attachment: fixed;
+}
+
+
+body.homepage{
+  background-image: url(image-path('blue_and_green_towels_2000.jpg'));
 }
 
 .bg-light {
@@ -76,7 +82,8 @@ ul {
 
 
 .jumbotron_2{
-	background-image: url(image-path('blue_and_green_towels_2000.jpg'));
+	// background-image: url(image-path('blue_and_green_towels_2000.jpg'));
+  background: blue;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
@@ -84,7 +91,8 @@ ul {
 	height: 11rem;
 	position:relative;
 	overflow:hidden;
-  color: white;
+  color: black;
+
 }
 
 // h3{
@@ -160,9 +168,12 @@ a:hover{
 }
 
 @media only screen and (max-width: 1000px) {
-    body{
-      background-image: url(image-path('orange_towels_1000.jpg'));
-     
+    body.homebody{
+      background-image: url(image-path('colorful_towels_2000.jpg'));  
+    }
+
+    h1{
+      color: gold;
     }
   
 }
@@ -170,12 +181,11 @@ a:hover{
  @media only screen and (max-width: 600px) {
     .bottom_space{
 	    height: 3rem;
-}
+    }
+
     .footer{
       height: 3rem;
     }
-
-
 
     iframe{
       height: 400px;
@@ -185,7 +195,7 @@ a:hover{
 
  @media only screen and (max-width: 400px) {
      body{
-      background-image: url(image-path('orange_towels_500.jpg'));
+      background-image:none;
      
     }
      .site_profile_image{
