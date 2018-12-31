@@ -33,16 +33,11 @@ html, body {
   font-family: 'Racing Sans One', cursive;
 }
 
-body{
-  // background-image: url(image-path('colorful_towels_2000.jpg'));
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-attachment: fixed;
+h2{
+  font-size: 3.5em;
 }
 
-
 body.homepage{
-  // background-image: url(image-path('blue_and_green_towels_2000.jpg'));
   background-image: url(image-path('colorful_towels.webp'));
 }
 
@@ -81,19 +76,15 @@ ul {
   width: 45%;
 }
 
-
 .jumbotron_2{
-	// background-image: url(image-path('blue_and_green_towels_2000.jpg'));
-  background: blue;
+	background-image: url(image-path('orange_towel_stack_900.jpg'));
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center; 
-	background-attachment: fixed;
 	height: 11rem;
 	position:relative;
 	overflow:hidden;
   color: black;
-
 }
 
 // h3{
@@ -176,6 +167,12 @@ a:hover{
 }
 
  @media only screen and (max-width: 600px) {
+    .jumbotron_2{
+      background-image: url(image-path('orange_towel_stack_500.jpg'));
+      background-position: center; 
+      background-attachment: inherit;
+
+    } 
     .bottom_space{
 	    height: 3rem;
     }
