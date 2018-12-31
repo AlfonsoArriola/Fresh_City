@@ -37,8 +37,12 @@ h2{
   font-size: 3.5em;
 }
 
-body.homepage{
-  background-image: url(image-path('colorful_towels.webp'));
+.navbar-light .navbar-brand {
+  color: rgba(254, 254, 254, 0.9);
+}
+
+.navbar-light .navbar-brand:hover {
+    color: gold;
 }
 
 .bg-light {
@@ -155,9 +159,13 @@ a:hover{
 	font-size: 1.1em;
   border-top: 2px solid white;
 }
+
 .footer a{
-	color:blue;
+  background: $nav-blue;
+  color: white;
+  padding: 4px;
 }
+
 
 @media only screen and (max-width: 1000px) {
     body.homebody{
