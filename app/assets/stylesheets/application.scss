@@ -33,6 +33,11 @@ html, body {
   font-family: 'Racing Sans One', cursive;
 }
 
+body{
+  background: $splashed-white;
+  color: $black;
+}
+
 h2{
   font-size: 3.5em;
 }
@@ -156,14 +161,21 @@ a:hover{
 
 .footer{
 	height: 11rem;
-	font-size: 1.1em;
+	font-size: 1.2em;
   border-top: 2px solid white;
 }
 
 .footer a{
   background: $nav-blue;
-  color: white;
-  padding: 4px;
+  color: $splashed-white;
+  padding:3px 5px;
+  border: 2px solid silver;
+}
+
+.footer a:hover{
+    color: gold;
+    border: 3px solid gold;
+    z-index: 2;
 }
 
 
