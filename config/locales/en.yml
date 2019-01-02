@@ -56,6 +56,10 @@ en:
     p_4: "Thank you for stopping by.  If you have any comments or questions, please e-mail us."    
     love: "LOVE"
     fresh: "FRESH"
+  api:
+    p_1: " Here is the info on all the site, in JSON format."
+    p_2: "If you have any questions, send an e-mail."
+    web_master: "Web Master"
   prospects:
     home_page: "Know a location not listed?  Please, let us know."
     link: "Click here to fill out a form."

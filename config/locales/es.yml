@@ -25,6 +25,10 @@ es:
     p_4: "Gracias por detenerte. Si tiene algún comentario o pregunta, por favor envíenos un correo electrónico." 
     love: "AMOR"
     fresh: "FRESCO" 
+  api:
+    p_1: "Aquí está la información en todo el sitio, en formato JSON."
+    p_2: "Si tiene alguna pregunta, envíe un correo electrónico."
+    web_master: "Web Master"
   prospects: 
     home_page: "¿Conoces una ubicación que no está en la lista? Por favor déjanos saber."
     link: "Haga clic aquí para completar un formulario."
