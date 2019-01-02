@@ -49,13 +49,17 @@ en:
     welcome: "Welcome!"
     home_page: " Fresh City keeps track of free and cheap showers
                          available within the 5 boroughs of New York City."
-    link: "Learn More About The Fresh City Project."    
+    link: "About"    
     p_1: "Our mission is to track all the free & affordable showers within New York City, and have that information easily accessible for all."
     p_2: "Fresh City would not exist without the knowledge, hard-work, & kindness of folks from Shower Power."
     p_3: "Look for future updates to include free & affordable haircuts or laundry."
     p_4: "Thank you for stopping by.  If you have any comments or questions, please e-mail us."    
     love: "LOVE"
     fresh: "FRESH"
+  api:
+    p_1: " Here is the info on all the site, in JSON format."
+    p_2: "If you have any questions, send an e-mail."
+    web_master: "Web Master"
   prospects:
     home_page: "Know a location not listed?  Please, let us know."
     link: "Click here to fill out a form."

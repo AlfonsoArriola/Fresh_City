@@ -14,7 +14,7 @@ h1 {
 }
 
 h3 {
-    color: black;
+    color: $black;
 }
 
 body.homepage{
@@ -24,13 +24,12 @@ body.homepage{
 .logo{
     width: 100%; 
     mix-blend-mode:difference;
-    // hard-light, difference, hue
 }
 
 .sub_logo{
-    background: white;
-    // mix-blend-mode: hard-light; 
-    // opacity: 0.8;
+    background: $splashed-white;
+    border: 1px solid $black;
+    box-shadow: 5px 10px $shadow;
 }
 
 .find_by{
@@ -38,8 +37,10 @@ body.homepage{
 } 
 
 .direct_to_showers{
-    background: white;
+    background: $splashed-white;
     font-size: 1.4em;
+    border: 1px solid $black;
+    box-shadow: 5px 10px $shadow;
 }
 
 .listing ul{
@@ -56,13 +57,13 @@ body.homepage{
 .listing li:hover{
     transform: scale(1.1);
 	transition: transform .15s ease-in-out;
-    outline: 6px white double;
+    outline: 6px $splashed-white double;
     outline-offset:-8px;
 	z-index: 2;
 }
 
 .listing a{
-	color: white;
+	color: $splashed-white;
     text-decoration: none;
 }
 
@@ -114,7 +115,7 @@ body.homepage{
     }
 
     .listing li a{
-        color:white;
+        color:$splashed-white;
     }
   
 }
