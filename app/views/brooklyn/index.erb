@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col">   
      <div class="row the_boroughs m-5">
-<!-- --------------------------------------------------------- -->
+<!-- -----------------------     Free Locations  ---------------------------------- -->
       <div class="col-lg-6 col-sm-12">
        <div class="row">
            <div class="col">
@@ -32,7 +32,7 @@
              <% @bk_free_sites.each do |bk_free_site| %>
 
           <li>    
-           <div class="p-3 mb-4 bg-info text-center">
+           <div class="p-3 mb-4 free_location_list text-center">
                <u>  Name </u>
                  <div> <%= bk_free_site.name %> </div>
             
@@ -51,7 +51,7 @@
             </div>
            </div>        
       </div>
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++== -->
+<!-- +++++++++++++++++++++++++++++    Affordable  +++++++++++++++++++++++++++++++++++++++++++++++++++++== -->
    <div class="col-lg-6 col-sm-12">
     <div class="row">
       <div class="col">
@@ -69,7 +69,7 @@
       <ul>
             <% @bk_cheap_sites.each do |bk_cheap_site| %>
               <li>
-        <div class="p-3 mb-4 bg-info text-center">        
+        <div class="p-3 mb-4 affordable_list text-center">        
                <u>  Name </u>
                <div> <%= bk_cheap_site.name %> </div>
              <br>
